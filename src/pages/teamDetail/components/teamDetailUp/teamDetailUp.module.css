@@ -1,0 +1,614 @@
+.infoDetail {
+    margin: auto auto auto 53px;
+}
+
+.formAdd {
+    margin: 32px 80px 0 80px;
+    padding: 9px 0px 20px 00px;
+    background-color: var(--white);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.FormTeam {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.rightAdd {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    padding-right: 90px;
+
+}
+
+.navform {
+    display: flex;
+}
+
+.navigationAdd {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: var(--red);
+
+}
+
+.navform {
+    margin-left: 20px;
+}
+
+.brownColor {
+    color: var(--grey);
+}
+
+.leftAdd {
+    padding-top: 50px;
+    padding-left: 40px;
+    margin-left: auto;
+}
+
+
+.AddSave {
+    display: inline-block;
+    margin-left: auto;
+    background: var(--red);
+    border-radius: 4px;
+    color: var(--white);
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.AddClose {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--light-grey);
+    border: 2px solid var(--light-grey);
+    text-align: center;
+    border-radius: 4px;
+}
+
+.AddClose:hover {
+
+    background: var(--lightest_grey);
+}
+
+.AddClose:focus {
+
+    background: var(--light-grey);
+    color: var(--grey);
+}
+
+.AddSave:hover {
+    background: var(--light_red);
+}
+
+.AddSave:focus {
+    background: var(--dark_red);
+}
+
+.mrg {
+    margin-right: 24px;
+}
+
+.infoDetailItemsYearOfFoundation {
+    margin-right: 75px;
+}
+
+.infoDetailItemsYearOfFoundation {
+    margin-right: 75px;
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1470px) {
+
+    .infoDetail {
+        margin: auto auto auto 53px;
+    }
+
+    .formAdd {
+        margin: 32px 80px 0 80px;
+        padding: 9px 0px 20px 00px;
+        background-color: var(--white);
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .FormTeam {
+        display: flex;
+        padding-bottom: 50px;
+    }
+
+    .rightAdd {
+        padding-left: 150px;
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        padding-right: 90px;
+
+    }
+
+    .navform {
+        display: flex;
+    }
+
+    .navigationAdd {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 27px;
+        color: var(--red);
+
+    }
+
+    .navform {
+        margin-left: 20px;
+    }
+
+    .brownColor {
+        color: var(--grey);
+    }
+
+    .leftAdd {
+        padding-top: 50px;
+        padding-left: 40px;
+        margin-left: auto;
+    }
+
+
+    .AddSave {
+        display: inline-block;
+        margin-left: auto;
+        background: var(--red);
+        border-radius: 4px;
+        color: white;
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .AddClose {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        color: var(--light-grey);
+        border: 2px solid var(--light-grey);
+        text-align: center;
+        border-radius: 4px;
+
+    }
+
+
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .infoDetail {
+        margin-left: 62px !important;
+    }
+
+    .infoDetailItemsYearOfFoundation {
+        margin-right: 42px;
+    }
+
+    .infoDetailItemsDivisionn {
+        margin-right: 20px;
+    }
+
+    .infoDetail {
+        margin: auto auto auto 43px;
+        color: var(--white);
+        padding-right: 40px;
+    }
+
+
+    .infoDetailItemsYearOfFoundation {
+        margin-right: 0;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationP {
+        line-height: 12px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsDivisionnH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsDivisionnP {
+        line-height: 12px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsConferenceH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsConferenceP {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsDivisionn,
+    .infoDetailItemsConference,
+    .infoDetailItemsYearOfFoundation {
+        margin-right: 20px;
+    }
+}
+
+
+
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .infoDetailItemsYearOfFoundation {
+        margin-right: 42px;
+    }
+
+    .infoDetailItemsDivisionn {
+        margin-right: 20px;
+    }
+
+    .infoDetail {
+        margin: auto auto auto 43px;
+        color: var(--white);
+        padding-right: 40px;
+    }
+
+
+
+    .infoDetailH1 {
+        font-size: 25px;
+    }
+
+    .infoDetailItemsYearOfFoundationH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationP {
+        line-height: 12px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsDivisionnH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsDivisionnP {
+        line-height: 12px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsConferenceH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsConferenceP {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .TeamsDetailDown_Header_Height,
+    .TeamsDetailDown_Header_Weight,
+    .TeamsDetailDown_Header_Age {
+        display: none;
+    }
+
+    .detailUpInfo {
+        display: flex;
+        flex-direction: column;
+        min-height: 419px;
+        height: auto !important;
+    }
+
+    .infoDetail {
+        display: flex;
+        flex-direction: column;
+        margin: auto !important;
+        padding-right: 0 !important;
+    }
+
+    .photoDetailImg {
+        height: 123px;
+        width: 125px;
+    }
+
+    .photoDetail {
+        margin-left: 0 !important;
+        padding-top: 30px;
+    }
+
+    .detailUp,
+    .TeamsDetailDown {
+        margin: 32px 40px 0 40px !important;
+    }
+
+    .infoDetailItems {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 23px;
+    }
+
+    .infoDetailItemsYearOfFoundationP,
+    .infoDetailItemsDivisionnP,
+    .infoDetailItemsConferenceP {
+        text-align: center;
+    }
+
+    .infoDetailItemsYearOfFoundationH3,
+    .infoDetailItemsDivisionnH3,
+    .infoDetailItemsConferenceH3 {
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .infoDetailItemsYearOfFoundation,
+    .infoDetailItemsDivisionn,
+    .infoDetailItemsConference {
+        margin-right: 0;
+        margin-right: 0 !important;
+    }
+
+    .infoDetailH1 {
+        justify-content: center;
+    }
+}
+
+
+.detailUp {
+    border-radius: 10px;
+    margin: 32px 80px 0 80px;
+    background: var(--white);
+    border: 0.5px solid var(--light-grey);
+}
+
+.detailUpPanel {
+    display: flex;
+    flex-direction: row;
+}
+
+.detailIcons {
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.detailUpInfo {
+    width: 100%;
+    height: 404px;
+    background: linear-gradient(276.45deg, var(--grey) 0%, var(--dark_black) 100.28%);
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 10px;
+}
+
+.deleteTeamSvg {
+    margin-right: 38px;
+    width: 0px;
+}
+
+.updateTeamSvg {
+    margin-right: 28px;
+    width: 10px;
+}
+
+.detailUpPanel .navform {
+    margin-left: 22px;
+}
+
+.photoDetail {
+    margin-left: 15%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.photoDetailImg {
+    height: 210px;
+    width: 210px;
+}
+
+.infoDetail {
+    margin: auto auto auto 150px;
+    color: white;
+    padding-right: 40px;
+
+
+}
+
+.navigationAdd {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: var(--red);
+
+}
+
+.infoDetailItems {
+    display: flex;
+    flex: start;
+    flex-wrap: wrap;
+}
+
+.infoDetailItemsYearOfFoundation,
+.infoDetailItemsDivisionn,
+.infoDetailItemsConference,
+.infoDetailH1 {
+    text-align: left;
+}
+
+.infoDetailItemsYearOfFoundation {
+    margin-right: 85px;
+}
+
+.infoDetailItemsDivisionn {
+    margin-right: 85px;
+}
+
+
+
+.infoDetailH1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .photoDetail {
+        margin-left: 0;
+    }
+
+    .formAdd {
+        margin: 32px 80px 0 80px;
+        padding: 9px -1px 20px 0px;
+
+    }
+
+    .formAdd {
+        margin: 32px 80px 0 80px;
+        padding: 9px -1px 20px 0px;
+
+    }
+
+    .infoDetailItemsYearOfFoundation {
+        margin-right: 42px;
+    }
+
+    .infoDetailItemsDivisionn {
+        margin-right: 20px;
+    }
+
+    .infoDetail {
+        margin: auto auto auto 43px;
+        color: var(--white);
+        padding-right: 40px;
+    }
+
+
+    .infoDetailH1 {
+        font-size: 25px;
+    }
+
+    .AppDetail {
+        padding-left: 0;
+    }
+
+    .detailUp {
+        border-radius: 10px;
+        margin: 38px 44px 0 48px;
+        background: var(--white);
+        border: 0.5px solid var(--light-grey);
+    }
+
+    .detailUpInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .infoDetailItems {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .detailUpInfo {
+        min-height: 655px;
+        padding-bottom: 38px;
+    }
+
+
+    .infoDetail {
+        text-align: center;
+    }
+
+    .infoDetail {
+        margin-left: auto;
+        color: white;
+        margin-right: auto;
+    }
+
+
+    .infoDetail {
+        padding-right: 0;
+    }
+
+    .infoDetailItemsYearOfFoundation {
+        margin-right: 0;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationP {
+        line-height: 12px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsDivisionnH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsDivisionnP {
+        line-height: 12px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsConferenceH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsConferenceP {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .detailUp,
+    .TeamsDetailDown {
+        margin: 32px 12px 0 12px !important;
+    }
+
+}

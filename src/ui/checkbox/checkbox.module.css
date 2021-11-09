@@ -1,0 +1,39 @@
+input[type='checkbox'] {
+  color: inherit;
+  appearance: none;
+  border: 1px solid currentColor;
+  border-radius: 0.25rem;
+  width: 1rem;
+  height: 1rem;
+  color: var(--grey);
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+input[type='checkbox']:hover {
+  background-color: var(--white);
+  color: #E4163A;
+}
+
+input[type='checkbox']:checked {
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="m3.75 8.5 2.5 2.5 6-6" style="fill:none;stroke:white;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.7"/></svg>') no-repeat center/100%, currentColor;
+  color: var(--red);
+}
+
+.checkboxed {
+  display: flex;
+  margin-top: 24px;
+}
+
+@media (max-width: 480px) {
+
+  .checkboxed {
+    padding-left: 10px;
+    margin-top: 19px;
+  }
+
+  .spanAuthLabel {
+    font-size: 15px;
+  }
+}

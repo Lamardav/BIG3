@@ -1,0 +1,291 @@
+.wrapperUser {
+    display: flex;
+    flex: start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 32px;
+    padding-right: 49px;
+}
+
+.cardUpImg {
+    width: 150px;
+    height: 215px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 65px;
+}
+
+.teamName {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.teamYear {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+
+    color: var(--light-grey);
+    text-align: center;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 12px 0px;
+}
+
+.cardUp {
+    height: 300px;
+}
+
+.cardDown {
+    height: 108px;
+    background: var(--dark_grey);
+    border-radius: 0px 0px 4px 4px;
+    padding-top: 7px;
+}
+
+.cardUpPlayers img {
+    width: 335px;
+    height: 274px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+
+}
+
+.user {
+    background: linear-gradient(121.57deg, var(--light_black) 1.62%, var(--dark_black) 81.02%);
+    border-radius: 4px;
+    flex: start;
+
+    align-items: center;
+    margin-right: 25px;
+
+    margin-bottom: 45px;
+
+    width: 364px;
+    height: 380px;
+    flex-wrap: wrap;
+
+}
+
+.cardUp {
+    height: 300px;
+}
+
+.cardDown {
+    height: 108px;
+    background: var(--dark_grey);
+    border-radius: 0px 0px 4px 4px;
+    padding-top: 7px;
+}
+
+.teamName {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--white);
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 12px 0px;
+}
+
+.teamYear {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+
+    color: var(--light-grey);
+    text-align: center;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 12px 0px;
+}
+
+
+@media (min-width: 1200px) and (max-width: 1435px) {
+    .user {
+        width: 31%;
+        margin-right: 21px;
+    }
+
+    .userInfo {
+        display: flex;
+        margin-left: auto;
+        margin-right: 60px;
+    }
+
+    .userInfo img {
+        height: 46px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .adminPanel input,
+    .css-1j9sz76-control {
+        width: 270px;
+    }
+
+    .user {
+        width: 336px;
+        height: 363px;
+        margin-bottom: 70px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapperUser {
+        padding-left: 9px;
+        padding-left: 9px;
+    }
+
+    .user {
+        margin-right: 25px;
+        margin-bottom: 45px;
+        width: 259px;
+        height: 322px;
+        flex-wrap: wrap;
+    }
+
+    .cardUp {
+        height: 235px;
+    }
+
+    .cardUpImg {
+        width: 150px;
+        height: 190px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .userInfo,
+    .sidebar {
+        display: none;
+    }
+
+    .wrapperUser {
+        padding-left: 0;
+    }
+
+    .wrapperUser {
+        padding-right: 0;
+    }
+
+    .user {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+
+    .user {
+        align-items: flex-start;
+        margin-right: 0;
+        margin-left: 0;
+        margin-right: 11px;
+        margin-bottom: 45px;
+        width: 225px;
+        height: 264px;
+        flex-wrap: wrap;
+    }
+
+    .wrapperUser {
+        padding-left: 9px;
+        padding-left: 9px;
+    }
+
+    .cardUp {
+        height: 167px;
+    }
+
+    .cardUpImg {
+        width: 138px;
+        height: 148px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding-top: 18px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .user {
+        align-items: flex-start;
+        margin-right: 0;
+        margin-left: 0;
+        margin-right: 8px;
+        width: 143px;
+        height: 199px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .wrapperUser {
+        padding-left: 9px;
+        padding-left: 9px;
+    }
+
+    .cardUp {
+        height: 116px;
+    }
+
+    .cardDown {
+        height: 82px;
+    }
+
+    .cardUpImg {
+        width: 102px;
+        height: 108px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding-top: 10px;
+    }
+
+    .teamName {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 10px;
+        text-align: center;
+        color: var(--white);
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        margin: 12px 0px;
+    }
+
+    .teamYear {
+        font-size: 13px;
+        line-height: 14px;
+    }
+}

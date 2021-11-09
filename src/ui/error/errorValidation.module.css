@@ -1,0 +1,10 @@
+.error{
+    font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+display: block;
+color: var(--lightest_red);
+text-align: left;
+margin-top: 2px;
+}

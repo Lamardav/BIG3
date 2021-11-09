@@ -1,0 +1,513 @@
+.searchFilter {
+    min-width: 400px;
+}
+
+
+.addTeamButton {
+    margin-right: 180px;
+    margin-left: auto;
+}
+
+.emptyWhiteBox {
+    width: 520px;
+    height: 496px;
+    background: var(--white);
+    display: flex;
+    margin: 73px auto 73px auto;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.playerContentEmptySvg {
+    width: 350px;
+    height: 350px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.emptyWhiteBoxH2 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 18px;
+
+    text-align: center;
+    color: var(--lightest_red);
+    text-align: center;
+    display: block;
+
+}
+
+.emptyWhiteBoxP {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 9px;
+
+    display: flex;
+    align-items: flex-end;
+    color: var(--grey);
+    text-align: center;
+    display: block;
+}
+
+.secondSearch {
+    background: var(--red) !important;
+    color: white !important;
+    font-family: "Open Sans";
+    font-size: 11px !important;
+    padding: 3px;
+    order: 99;
+    height: 27px !important;
+    margin-bottom: unset;
+    vertical-align: middle;
+    width: 20px !important;
+    text-align: center !important;
+    font-size: 15px !important;
+    padding-top: 8px !important;
+}
+
+.App {
+    background: var(--lightest_grey1);
+    padding-left: 140px;
+    padding-top: 80px;
+    min-height: 100vh;
+
+}
+
+.adminPanel {
+    display: flex;
+    margin-top: 32px;
+    width: 100%;
+}
+
+.seachText {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: hsl(0, 0%, 100%);
+    background: var(--white);
+    border: 0.5px solid #D1D1D1;
+    padding-left: 10px;
+
+}
+
+.addTeamButton {
+    margin-right: 180px;
+    margin-left: auto;
+}
+
+
+
+
+.contentPart {
+    display: flex;
+    flex: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: calc(100vh - 238px);
+    ;
+}
+
+
+.footer {
+    display: flex;
+    padding-bottom: 1em;
+    padding-left: 33px;
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    .seachText {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .adminPanel {
+        width: 180px !important;
+    }
+
+    .addTeamButton {
+        margin-left: 15px;
+    }
+
+    .seachText {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .App {
+        padding-left: 0;
+    }
+
+    .seachText {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .addTeamButton {
+        margin-right: auto !important;
+
+    }
+
+    .adminPanel {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0px;
+        height: 197px;
+
+
+    }
+
+
+
+    .addTeamButton {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .playerContentEmptySvg {
+        width: 218px;
+        height: 261px;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .App {
+        padding-left: 140px;
+    }
+
+    .emptyWhiteBox {
+        width: 423px;
+        height: 464px;
+        background: white;
+        display: flex;
+        margin: 73px auto 73px auto;
+        border-radius: 15px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .emptyWhiteBoxP {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 9px;
+        display: flex;
+        align-items: flex-end;
+        color: var(--grey);
+        text-align: center;
+        display: block;
+    }
+
+    .emptyWhiteBoxH2 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 18px;
+        text-align: center;
+        color: var(--light_red);
+        text-align: center;
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .cardUpPlayers {
+        height: 158px;
+    }
+
+    .user {
+        margin-bottom: 29px;
+        width: 219px;
+        height: 259px;
+    }
+
+    .wrapperUser {
+        padding-right: 0;
+    }
+
+    .App {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .user {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .searchInput {
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 14px;
+    }
+
+    .addTeamButton .addLinkUI .addBtnUI {
+        width: 400px;
+        position: inherit;
+    }
+
+    .searchFilter .css-b62m3t-container {
+        width: 366px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 14px;
+    }
+
+    .addTeamButton {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .adminPanel {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0px;
+        height: 197px;
+
+
+    }
+
+    .searchInput {
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 14px;
+    }
+
+
+    .addTeamButton .addBtnUI {
+        width: 400px;
+        margin-top: 20px;
+        position: inherit;
+    }
+
+
+    .addTeamButton {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .App {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+
+    .addTeamButton {
+        margin-right: auto
+    }
+
+    .emptyWhiteBox {
+        width: 344px;
+        height: 323px;
+        background: white;
+        display: flex;
+        margin: 73px auto 73px auto;
+        border-radius: 15px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .playerContentEmptySvg {
+        width: 163px;
+        height: 172px;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .emptyWhiteBoxH2 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 27px;
+        line-height: 18px;
+        text-align: center;
+        color: var(--lightest_red);
+        text-align: center;
+        display: block;
+    }
+
+    .emptyWhiteBoxP {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 9px;
+        display: flex;
+        align-items: flex-end;
+        color: var(--grey);
+        text-align: center;
+        display: block;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .footer {
+        display: flex;
+    }
+
+    .hamburgeruserInfo img {
+        height: 37px;
+        margin-right: 11px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 9px;
+    }
+
+    .hambSignOut {
+        margin-top: 39vh;
+        margin-left: 13px;
+    }
+
+    .emptyWhiteBoxP {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 9px;
+        display: flex;
+        align-items: flex-end;
+        color: var(--grey);
+        text-align: center;
+        display: block;
+    }
+
+
+    .searchFilter .css-b62m3t-container {
+        width: 300px;
+    }
+
+    .seachText {
+        width: 300px;
+    }
+
+
+    .emptyWhiteBoxP {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 9px;
+        display: flex;
+        align-items: flex-end;
+        color: var(--grey);
+        text-align: center;
+        display: block;
+    }
+
+    .seachText {
+        width: 300px;
+    }
+
+    .footer {
+        display: flex;
+        padding-left: 0;
+        flex-direction: row;
+        flex: center;
+    }
+
+    .App {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+
+    .emptyWhiteBoxP {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 9px;
+        display: flex;
+        align-items: flex-end;
+        color: var(--grey);
+        text-align: center;
+        display: block;
+    }
+
+    .emptyWhiteBox {
+        width: 344px;
+        height: 323px;
+        background: white;
+        display: flex;
+        margin: 73px auto 73px auto;
+        border-radius: 15px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .playerContentEmptySvg {
+        width: 163px;
+        height: 172px;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .emptyWhiteBoxH2 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 27px;
+        line-height: 18px;
+        text-align: center;
+        color: var(--lightest_red);
+        text-align: center;
+        display: block;
+    }
+
+    .playerContentEmptySvg {
+        width: 200px;
+    }
+
+    .emptyWhiteBoxP {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 9px;
+        display: flex;
+        align-items: flex-end;
+        color: var(--grey);
+        text-align: center;
+        display: block;
+    }
+
+
+}

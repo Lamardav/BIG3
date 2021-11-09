@@ -1,0 +1,15 @@
+.AppDetail {
+
+    background: var(--lightest_grey1);
+    padding-left: 140px;
+    padding-top: 80px;
+    min-height: 100vh;
+    padding-bottom: 35px;
+
+}
+
+@media (max-width: 767px) {
+    .AppDetail {
+        padding-left: 0;
+    }
+}

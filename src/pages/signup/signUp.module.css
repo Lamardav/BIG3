@@ -1,0 +1,107 @@
+.signInWrapper {
+    display: flex;
+    width: 100vw;
+}
+
+.rightSideSignIn {
+    height: 100vh;
+    background: var(--silver);
+    width: 60vw;
+    vertical-align: middle;
+    display: flex;
+}
+
+
+.errorMessage {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    max-height: 30px;
+    background: var(--light_red);
+    border-radius: 4px;
+    padding: 4px 10px 10px 10px;
+
+    color: #FFFFFF;
+}
+
+.signUpLayer {
+    margin: auto;
+}
+
+.errorMessageAdd {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    max-height: 30px;
+    background: var(--light_red);
+    border-radius: 4px;
+    padding: 4px 10px 10px 10px;
+
+    color: var(--white);
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .rightSideSignIn {
+        width: 53vw;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .rightSideSignIn {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .rightSideSignIn {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .rightSideSignIn {
+        display: none;
+    }
+
+    .inputAuth {
+        width: 305px;
+    }
+
+    .buttonAuth {
+        width: 305px;
+    }
+
+    .TitelSignIn {
+        text-align: center;
+    }
+
+    .spanAuth {
+        padding-left: 31px;
+    }
+
+    .checkboxed {
+        width: 305px;
+        justify-content: left;
+
+    }
+
+    .error {
+        width: 305px;
+        justify-content: left;
+        text-align: left;
+        margin-left: 30px;
+    }
+}

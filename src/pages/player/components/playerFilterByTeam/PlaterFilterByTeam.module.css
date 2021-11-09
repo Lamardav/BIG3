@@ -1,0 +1,91 @@
+.searchFilter {
+    min-width: 400px;
+    padding-right: 20px;
+    height: 40px;
+}
+
+
+[data-value] {
+    height: 35px;
+
+}
+
+#react-select-3-placeholder {
+    margin-top: 20px;
+}
+
+.secondSearch {
+    background: var(--red) !important;
+    color: white !important;
+    font-family: "Open Sans";
+    font-size: 11px !important;
+    padding: 3px;
+    order: 99;
+    height: 27px !important;
+    margin-bottom: unset;
+    vertical-align: middle;
+    width: 20px !important;
+    text-align: center !important;
+    font-size: 15px !important;
+    padding-top: 8px !important;
+}
+
+.seachText {
+    width: 300px !important;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+    .searchFilter {
+        min-width: 390px;
+        margin-left: auto;
+        margin-right: 20px;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .searchFilter {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .searchFilter {
+        min-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .hambSignOut {
+        margin-top: 39vh;
+        margin-left: 13px;
+    }
+
+
+
+    .searchFilter {
+        min-width: 300px !important;
+    }
+
+    .seachText {
+        width: 300px;
+    }
+
+
+
+
+}

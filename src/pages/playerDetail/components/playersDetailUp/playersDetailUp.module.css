@@ -1,0 +1,678 @@
+.detailUpInfo {
+    min-height: 655px;
+    padding-bottom: 38px;
+}
+
+.detailUpInfo {
+    min-height: 655px;
+    padding-bottom: 38px;
+}
+
+.detailUp {
+    border-radius: 10px;
+    margin: 32px 80px 0 80px;
+    background: white;
+    border: 0.5px solid var(--light-grey);
+}
+
+.photoDetailPlayersImg {
+    width: 531px;
+    height: 459px;
+    padding-top: 12px;
+}
+
+.detailIcons {
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.deletePlayersLink {
+    margin-right: 38px;
+    width: 0px;
+}
+
+.playerNumber {
+    color: var(--light_red);
+}
+
+.updatePlayersIcon {
+    margin-right: 28px;
+    width: 10px;
+}
+
+.detailUpPanel {
+    display: flex;
+    flex-direction: row;
+}
+
+.detailUpPanel .navform {
+    margin-left: 22px;
+}
+
+.navform {
+    margin-left: 20px;
+    display: flex;
+}
+
+.navigationAdd {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: var(--red);
+
+}
+
+.brownColor {
+    color: var(--grey);
+}
+
+
+
+.detailUpInfo {
+    min-height: 655px;
+    padding-bottom: 38px;
+    width: 100%;
+    height: 404px;
+    background: linear-gradient(276.45deg, var(--grey) 0%, var(--dark_black) 100.28%);
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 10px;
+}
+
+.detailUp {
+    border-radius: 10px;
+    margin: 32px 80px 0 80px;
+    background: var(--white);
+    border: 0.5px solid var(--light-grey);
+}
+
+.detailUpPanel {
+    display: flex;
+    flex-direction: row;
+}
+
+.detailIcons {
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.detailUpInfo {
+    width: 100%;
+    height: 404px;
+    background: linear-gradient(276.45deg, var(--grey) 0%, var(--dark_black) 100.28%);
+    text-align: center;
+    display: flex;
+    border-radius: 0 0 10px 10px;
+}
+
+.deletePlayersLink {
+    margin-right: 38px;
+    width: 0px;
+}
+
+.updatePlayersIcon {
+    margin-right: 28px;
+    width: 10px;
+}
+
+.detailUpPanel .navform {
+    margin-left: 22px;
+}
+
+
+
+.infoDetail {
+    margin-left: 3%;
+    margin-top: 120px;
+    margin: auto auto auto 10px;
+    color: white;
+    padding-right: 40px;
+
+
+}
+
+.navigationAdd {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: var(--red);
+
+}
+
+.infoDetailItems {
+    display: flex;
+    flex: start;
+    flex-wrap: wrap;
+}
+
+.infoDetailItemsYearOfFoundation,
+.infoDetailItemsDivisionn,
+.infoDetailTitel {
+    text-align: left;
+}
+
+.infoDetailItemsYearOfFoundation {
+    margin-right: 85px;
+}
+
+.infoDetailItemsDivisionn {
+    margin-right: 85px;
+}
+
+.photoDetailPlayers {
+    margin-left: 2%;
+    margin-top: 197px;
+
+}
+
+.infoDetailTitel {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .detailUp {
+        border-radius: 10px;
+        margin: 38px 44px 0 48px;
+        background: white;
+        border: 0.5px solid var(--light-grey);
+    }
+
+    .detailUpInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .detailUpInfo {
+        min-height: 655px;
+        padding-bottom: 38px;
+    }
+
+    .infoDetailItemsYearOfFoundation {
+        margin-right: 42px;
+    }
+
+    .infoDetailItemsDivisionn {
+        margin-right: 20px;
+    }
+
+    .infoDetail {
+        margin: auto auto auto 43px;
+        color: white;
+        padding-right: 40px;
+    }
+
+    .photoDetailPlayersImg {
+        height: 176px;
+        width: 163px;
+    }
+
+    .photoDetailPlayers {
+        margin-left: 6%;
+        margin-top: 17px;
+    }
+
+    .infoDetailTitel {
+        font-size: 25px;
+    }
+
+    .AppDetail {
+        padding-left: 0;
+    }
+
+    .detailUp {
+        border-radius: 10px;
+        margin: 38px 44px 0 48px;
+        background: var(--white);
+        border: 0.5px solid var(--light-grey);
+    }
+
+    .detailUpInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .infoDetailItemsYearOfFoundation {
+        margin-right: 75px;
+    }
+
+    .infoDetailItemsYearOfFoundation {
+        margin-right: 75px;
+    }
+
+    .infoDetailItems {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .detailUpInfo {
+        min-height: 655px;
+        padding-bottom: 38px;
+    }
+
+    .photoDetailPlayers {
+        margin-bottom: 25px;
+    }
+
+    .infoDetail {
+        text-align: center;
+    }
+
+    .infoDetail {
+
+        margin-left: auto;
+        color: white;
+        margin-right: auto;
+    }
+
+    .photoDetailPlayers {
+        margin-left: 0;
+    }
+
+    .infoDetail {
+        padding-right: 0;
+    }
+
+    .infoDetailItemsYearOfFoundation {
+        margin-right: 0;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationP {
+        line-height: 12px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationP {
+        line-height: 12px;
+        white-space: nowrap;
+    }
+
+
+
+    .TeamsDetailDown_Header_Height,
+    .TeamsDetailDown_Header_Weight,
+    .TeamsDetailDown_Header_Age {
+        display: none;
+    }
+
+
+
+    .photoDetailPlayersImg {
+        height: 178px;
+
+        width: 179px;
+    }
+
+    .infoDetailItemsYearOfFoundationP,
+    .infoDetailItemsYearOfFoundationP {
+        text-align: center;
+    }
+
+    .infoDetailItemsYearOfFoundationH3,
+    .infoDetailItemsYearOfFoundationH3 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .infoDetailItemsYearOfFoundation,
+    .infoDetailItemsDivisionn {
+        margin-right: 0;
+    }
+
+    .infoDetailTitel {
+        justify-content: center;
+    }
+
+    .TeamsDetailDown_Header_Height,
+    .TeamsDetailDown_Header_Weight,
+    .TeamsDetailDown_Header_Age {
+        display: none;
+    }
+
+
+    .photoDetailPlayersImg {
+        height: 178px;
+
+        width: 179px;
+    }
+
+    .infoDetailItemsYearOfFoundationP,
+    .infoDetailItemsYearOfFoundationP {
+        text-align: center;
+    }
+
+    .infoDetailItemsYearOfFoundationH3,
+    .infoDetailItemsYearOfFoundationH3 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .infoDetailItemsYearOfFoundation,
+    .infoDetailItemsDivisionn {
+        margin-right: 0;
+    }
+
+    .infoDetailTitel {
+        justify-content: center;
+    }
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .photoDetailPlayers {
+        margin-left: 2%;
+        margin-top: 197px;
+
+    }
+
+    .photoDetailPlayersImg {
+        height: 459px;
+        width: 472px;
+
+    }
+
+    .infoDetailTitel {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .infoDetailItemsYearOfFoundation {
+        margin-right: 42px;
+    }
+
+    .infoDetailItemsDivisionn {
+        margin-right: 20px;
+    }
+
+    .infoDetail {
+        margin: auto auto auto 43px;
+        color: white;
+        padding-right: 40px;
+    }
+
+    .photoDetailPlayersImg {
+        height: 272px;
+        width: 267px;
+    }
+
+    .photoDetailPlayers {
+        margin-left: 6%;
+        margin-top: 17px;
+    }
+
+    .infoDetailItemsYearOfFoundation {
+        margin-right: 0;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationP {
+        line-height: 12px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationP {
+        line-height: 12px;
+        white-space: nowrap;
+    }
+
+
+
+    .infoDetailItemsDivisionn,
+    .infoDetailItemsYearOfFoundation {
+        margin-right: 20px;
+    }
+
+    .photoDetailPlayers {
+        margin-left: 2%;
+        margin-top: 102px;
+        margin-right: 3%;
+
+    }
+
+    .photoDetailPlayersImg {
+        height: 309px;
+        width: 327px;
+
+    }
+
+    .infoDetailTitel {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .infoDetailItemsYearOfFoundation {
+        margin-right: 42px;
+    }
+
+    .infoDetailItemsDivisionn {
+        margin-right: 20px;
+    }
+
+    .infoDetail {
+        margin: auto auto auto 43px;
+        color: white;
+        padding-right: 40px;
+    }
+
+    .photoDetailPlayersImg {
+        height: 176px;
+        width: 163px;
+    }
+
+    .photoDetailPlayers {
+        margin-left: 6%;
+        margin-top: 17px;
+    }
+
+    .infoDetailTitel {
+        font-size: 25px;
+    }
+
+    .infoDetailItemsYearOfFoundationH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationP {
+        line-height: 12px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationH3 {
+        line-height: 10px;
+        white-space: nowrap;
+    }
+
+    .infoDetailItemsYearOfFoundationP {
+        line-height: 12px;
+        white-space: nowrap;
+    }
+
+    .photoDetailPlayers {
+        margin-left: 2%;
+        margin-top: 0px;
+        margin-right: 3%;
+
+    }
+
+    .photoDetailPlayersImg {
+        height: 309px;
+        width: 327px;
+
+    }
+
+    .infoDetailTitel {
+        font-size: 18px;
+    }
+
+    .detailUp {
+        margin: 32px 15px 0 15px !important;
+        padding-right: 0px;
+        min-height: 400px;
+    }
+
+    .detailUpInfo {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .infoDetailItems {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .infoDetail {
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .infoDetailItemsYearOfFoundation,
+    .infoDetailItemsDivisionn {
+        margin-right: 0 !important;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .photoDetailPlayers {
+        margin-left: 2%;
+        margin-top: 0px;
+        margin-right: 3%;
+
+    }
+
+    .photoDetailPlayersImg {
+        height: 248px;
+        width: 270px;
+
+    }
+
+    .infoDetailTitel {
+        font-size: 18px;
+    }
+
+    .detailUp {
+        margin: 32px 15px 0 15px !important;
+        padding-right: 0px;
+        min-height: 400px;
+
+    }
+
+    .detailUpInfo {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .infoDetailItems {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .infoDetail {
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .infoDetailItemsYearOfFoundation,
+    .infoDetailItemsDivisionn {
+        margin-right: 0 !important;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .photoDetailPlayers {
+        margin-left: 2%;
+        margin-top: 0px;
+        margin-right: 3%;
+
+    }
+
+    .photoDetailPlayersImg {
+        height: 160px;
+        width: 210px;
+
+    }
+
+    .infoDetailTitel {
+        font-size: 18px;
+    }
+
+    .detailUp {
+        margin: 32px 15px 0 15px !important;
+        padding-right: 0px;
+        min-height: 400px;
+    }
+
+    .detailUpInfo {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .infoDetailItems {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .infoDetail {
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .infoDetailItemsYearOfFoundation,
+    .infoDetailItemsDivisionn {
+        margin-right: 0 !important;
+        text-align: center !important;
+    }
+}

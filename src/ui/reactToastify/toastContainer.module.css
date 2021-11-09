@@ -1,0 +1,34 @@
+.UIToastContainer {
+    width: 500px;
+
+
+}
+
+.UIToastContainerToast {
+    background-color: var(--light_red);
+    color: var(--white);
+    height: 40px;
+    min-height: 0;
+}
+
+.UIToastContainerBody {
+    height: 25px;
+    flex: 1 1 auto;
+}
+
+@media (max-width: 480px) {
+    .UIToastContainer {
+        width: 320px;
+    }
+
+    .UIToastContainerToast {
+
+        height: 60px;
+        min-height: 0;
+    }
+
+    .UIToastContainerBody {
+        height: 45px;
+        flex: 1 1 auto;
+    }
+}

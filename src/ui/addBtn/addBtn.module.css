@@ -1,0 +1,52 @@
+.plus {
+    filter: invert(97%) sepia(100%) saturate(11%) hue-rotate(207deg) brightness(103%) contrast(103%);
+    width: 11px;
+    margin-left: 10px;
+    padding-top: 2px;
+}
+
+.addBtnUI {
+    padding: 8px 24px;
+
+    position: absolute;
+    width: 104px;
+    height: 40px;
+
+    border-width: 0px;
+
+    color: white;
+    background: var(--red);
+    border-radius: 4px;
+}
+
+.addBtnUI:hover {
+    background: var(--light_red);
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .addBtnUI {
+        width: 400px;
+        position: relative;
+
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .addBtnUI {
+        margin-top: 0;
+        width: 400px;
+        position: relative !important;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+    .addBtnUI {
+        width: 300px;
+    }
+
+}

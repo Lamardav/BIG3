@@ -1,0 +1,29 @@
+.changePAgeSize {
+  width: 110px;
+  height: 40px;
+  padding-top: 0.5em;
+  margin-left: auto;
+  margin-right: 80px;
+}
+
+.changerSize {
+  padding-left: 10px;
+  height: 40px;
+}
+
+@media (max-width: 767px) {
+  .changePAgeSize {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .changePAgeSize {
+
+    margin-right: 0px;
+  }
+
+  .changerSize {
+    width: 90px;
+  }
+}

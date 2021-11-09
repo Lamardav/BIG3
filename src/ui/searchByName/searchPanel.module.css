@@ -1,0 +1,47 @@
+.seachText {
+    padding-left: 10px;
+    border: 0.5px solid var(--lightest_grey);
+    border-radius: 4px;
+}
+
+.search {
+    position: relative;
+}
+
+.searchControl {
+    position: absolute;
+    top: 6px;
+    right: -8px;
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background: url('../../assets/images/Team/search/search.svg') 0 0 no-repeat;
+    filter: invert(68%) sepia(0%) saturate(51%) hue-rotate(135deg) brightness(92%) contrast(89%);
+}
+
+.searchInput {
+    padding-left: 80px;
+    margin-right: 30px;
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .searchInput {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0
+    }
+}
+
+@media (max-width: 768px) {
+    .searchInput {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .seachText {
+        width: 300px !important;
+    }
+}

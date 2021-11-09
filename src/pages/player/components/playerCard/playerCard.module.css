@@ -1,0 +1,587 @@
+.teamName {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrapperUser {
+    display: flex;
+    flex: start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 32px;
+    padding-right: 49px;
+}
+
+.playerNumber {
+    color: var(--light_red);
+}
+
+.logo {
+    padding: 18px 0 18px 59px;
+    display: flex;
+
+}
+
+.userInfo {
+    display: flex;
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+
+
+.header {
+    display: flex;
+    background: white;
+    box-shadow: 0px 1px 10px rgba(209, 209, 209, 0.5);
+    z-index: 999;
+    margin-bottom: 2px;
+    position: fixed;
+    width: 100%;
+    height: 86px;
+}
+
+.userHeader {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 19px;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: black;
+    opacity: .7;
+}
+
+.formAdd {
+    margin: 32px 80px 0 80px;
+    padding: 9px 0px 20px 00px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.FormTeam {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.rightAdd {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    padding-right: 90px;
+
+}
+
+.navform {
+    display: flex;
+}
+
+.navigationAdd {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: var(--red);
+
+}
+
+.navform {
+    margin-left: 20px;
+}
+
+.brownColor {
+    color: var(--grey);
+}
+
+.leftAdd {
+    padding-top: 50px;
+    padding-left: 40px;
+    margin-left: auto;
+}
+
+.buttonsAdd {
+    width: 366px;
+    margin-top: 24px;
+    display: flex;
+}
+
+
+.AddSave {
+    display: inline-block;
+    margin-left: auto;
+    background: var(--red);
+    border-radius: 4px;
+    color: white;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.AddClose {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--light-grey);
+    border: 2px solid var(--light-grey);
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+.AddClose:hover {
+
+    background: var(--lightest_grey);
+}
+
+.AddClose:focus {
+
+    background: var(--light-grey);
+    color: var(--grey);
+}
+
+.AddSave:hover {
+    background: var(--light_red);
+}
+
+.AddSave:focus {
+    background: var(--dark_red);
+}
+
+.mrg {
+    margin-right: 24px;
+}
+
+.user {
+    background: linear-gradient(121.57deg, #707070 1.62%, #393939 81.02%);
+    border-radius: 4px;
+    flex: start;
+    margin-right: none;
+    align-items: center;
+    margin-right: 25px;
+
+    margin-bottom: 45px;
+
+    width: 364px;
+    height: 380px;
+    flex-wrap: wrap;
+
+}
+
+.cardUpPlayers {
+    height: 274px;
+    margin-top: auto;
+    display: block;
+}
+
+
+.secondSearch {
+    background: var(--red) !important;
+    color: white !important;
+    font-family: "Open Sans";
+    font-size: 11px !important;
+    padding: 3px;
+    order: 99;
+    height: 27px !important;
+    margin-bottom: unset;
+    vertical-align: middle;
+    width: 20px !important;
+    text-align: center !important;
+    font-size: 15px !important;
+    padding-top: 8px !important;
+}
+
+.cardPlayerImg {
+    width: 335px;
+    height: 274px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+
+}
+
+.cardUpPlayers {
+    height: 274px;
+    margin-top: auto;
+    display: block;
+}
+
+.cardPlayerImg {
+    height: 275px;
+    width: 296px;
+}
+
+
+.cardUp {
+    height: 300px;
+}
+
+.cardDown {
+    height: 108px;
+    background: var(--dark_grey);
+    border-radius: 0px 0px 4px 4px;
+    padding-top: 7px;
+}
+
+.cardDown {
+    height: 108px;
+    background: var(--dark_grey);
+    border-radius: 0px 0px 4px 4px;
+    padding-top: 7px;
+}
+
+.teamName {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.teamName {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 12px 0px;
+}
+
+.teamName {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardUp {
+    height: 300px;
+}
+
+.playerNumber {
+    color: var(--light_red);
+}
+
+.teamYear {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    overflow: hidden;
+    color: var(--light-grey);
+    text-align: center;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 12px 0px;
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1435px) {
+    .user {
+        width: 31%;
+        margin-right: 21px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+    .user {
+        width: 336px !important;
+        height: 355px !important;
+        margin-bottom: 70px;
+    }
+
+}
+
+
+
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .wrapperUser {
+        justify-content: center;
+    }
+
+
+
+    .adminPanel {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0px;
+        height: 197px;
+
+
+    }
+
+    .searchInput {
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    .addTeamButton {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .user {
+        width: 261px;
+        height: 304px;
+    }
+
+    .cardPlayerImg {
+        height: 216px;
+        width: 255px;
+    }
+
+    .cardUpPlayers {
+        height: 215px;
+    }
+
+    .teamName {
+        margin-top: 22px;
+    }
+
+    .wrapperUser {
+        justify-content: start;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+
+    .adminPanel {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0px;
+        height: 197px;
+
+
+    }
+
+    .searchInput {
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .addTeamButton {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .userInfo,
+    .sidebar {
+        display: none;
+    }
+
+    .App {
+        padding-left: 0;
+    }
+
+    .wrapperUser {
+        padding-left: 0;
+    }
+
+    .adminPanel {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0px;
+        height: 197px;
+
+
+    }
+
+    .logo {
+        padding: 18px 23px 18px 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wrapperUser {
+        padding-right: 0;
+    }
+
+    .searchInput {
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 14px;
+    }
+
+
+
+    .searchFilter .css-b62m3t-container {
+        width: 366px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 14px;
+    }
+
+    .addTeamButton {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .formAdd {
+        margin: 32px 80px 0 80px;
+        padding: 9px -1px 20px 0px;
+
+    }
+
+    .wrapperUser {
+        padding-right: 0;
+    }
+
+    .searchInput {
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 14px;
+    }
+
+
+
+    .userInfo,
+    .sidebar {
+        display: none;
+    }
+
+    .App {
+        padding-left: 0;
+    }
+
+    .wrapperUser {
+        padding-left: 0;
+    }
+
+
+
+    .adminPanel {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0px;
+        height: 197px;
+
+
+    }
+
+    .logo {
+        padding: 18px 23px 18px 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cardPlayerImg {
+        height: 157px;
+        width: 207px;
+    }
+
+    .cardUpPlayers {
+        height: 158px;
+    }
+
+    .cardDown {
+        height: 88px;
+    }
+
+    .user {
+        margin-bottom: 18px;
+        width: 213px;
+        height: 245px;
+    }
+
+    .teamName {
+        width: 200px;
+        height: 20px;
+        overflow: hidden;
+        font-size: inherit;
+    }
+
+    .wrapperUser {
+        padding-right: 0;
+    }
+
+    .searchFilter .css-b62m3t-container {
+        width: 366px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 14px;
+    }
+
+    .addTeamButton {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .searchInput {
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 14px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .cardPlayerImg {
+        height: 98px;
+        width: 129px;
+    }
+
+    .cardUpPlayers {
+        height: 99px;
+    }
+
+    .cardDown {
+        height: 72px;
+    }
+
+    .user {
+        margin-bottom: 18px;
+        width: 132px;
+        height: 174px;
+        margin-right: 13px;
+    }
+
+    .teamName {
+        width: 111px;
+        height: 15px;
+        line-height: 14px;
+        overflow: hidden;
+        font-size: inherit;
+        margin: 12px 0 12px;
+    }
+}

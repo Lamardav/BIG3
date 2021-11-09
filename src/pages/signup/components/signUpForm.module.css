@@ -1,0 +1,155 @@
+#firstimg {
+  opacity: 0;
+  width: 20px;
+}
+
+.leftSideSignIn {
+  width: 366px;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.leftSideSignIn {
+  width: 366px;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.inputAuth {
+  background: var(--lightest_grey1);
+  border-radius: 4px;
+  height: 40px;
+  width: 366px;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-top: 5px;
+
+}
+
+.passwordIcon {
+  float: right;
+  position: relative;
+  margin: -25px 10px 0 0;
+  cursor: pointer;
+}
+
+.password {
+  position: relative;
+}
+
+.passwordControl {
+  position: absolute;
+  top: 1px;
+  right: 9px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../../../assets/icons/view.svg) 0 0 no-repeat;
+  filter: invert(68%) sepia(0%) saturate(51%) hue-rotate(135deg) brightness(92%) contrast(89%);
+}
+
+.passwordControl.view {
+  background: url(../../../assets/icons/no-view.svg) 0 0 no-repeat;
+  filter: invert(68%) sepia(0%) saturate(51%) hue-rotate(135deg) brightness(92%) contrast(89%);
+}
+
+.TitelSignIn {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 49px;
+  color: #344472;
+  text-align: left;
+}
+
+
+.spanLinkSignUp {
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  color: var(--grey);
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.LinkSignUp {
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: var(--red);
+}
+
+.error {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  display: block;
+  color: var(--lightest_red);
+  text-align: left;
+  margin-top: 2px;
+}
+
+
+.errorClass {
+  border: 1px solid var(--light_red);
+}
+
+
+.inputAuth:focus {
+  box-shadow: 0px 0px 5px;
+  outline: none;
+}
+
+.success {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  display: block;
+  color: green;
+  text-align: left;
+  margin-top: 2px;
+}
+
+
+@media (max-width: 480px) {
+  .buttonAuth {
+    width: 310px;
+  }
+
+  .TitelSignIn {
+    text-align: center;
+  }
+
+  .inputAuth {
+    width: 310px;
+  }
+
+  .spanAuth {
+    padding-left: 30px;
+  }
+
+  .leftSideSignIn {
+    margin-top: 50px;
+  }
+
+  .TitelSignIn {
+    line-height: 5px;
+  }
+}

@@ -1,0 +1,103 @@
+.chevron::before {
+    border-style: solid;
+    border-width: 0.25em 0.25em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.45em;
+    left: 0.15em;
+    position: relative;
+    top: 0.15em;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 0.45em;
+}
+
+.chevron.right:before {
+    left: 0;
+    transform: rotate(45deg);
+}
+
+.chevron.bottom:before {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+.chevron.left:before {
+    left: 0.25em;
+    transform: rotate(-135deg);
+}
+
+.pafinationSpan {
+    font-size: 23px;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    align-items: center
+}
+
+.activePage {
+    background: var(--red);
+
+    border-radius: 4px;
+
+}
+
+.activePage {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    display: flow-root;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: var(--white) !important;
+}
+
+.paginationItemLink {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    display: flow-root;
+    flex: none;
+
+    flex-grow: 0;
+    margin: 10px 24px;
+
+}
+
+.page-item {
+    width: 40px;
+    height: 40px;
+    margin-right: 24px;
+
+}
+
+.activePageLink {
+    color: var(--white) !important;
+}
+
+@media (max-width: 767px) {
+    .pagination {
+        padding-inline-start: 0;
+        margin-block-start: 0;
+        ;
+    }
+
+    .paginationItemLink {
+        margin: 10px 11px !important;
+    }
+
+    .paginationLinkPrev {
+        margin: 10px 0px !important;
+    }
+
+    .paginationLinkNext {
+        margin: 10px 0px !important;
+    }
+}

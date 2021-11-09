@@ -1,0 +1,274 @@
+.sidebar {
+    text-align: center;
+    width: 140px;
+    background: var(--white);
+    padding-top: 80px;
+
+}
+
+.teamSidebar {
+    margin-top: 50px;
+}
+
+
+.personSidebar {
+    margin-top: 36px;
+}
+
+.sidebarPersonSidebarTeamIco,
+.sidebarTeamSidebarPersonIco {
+    width: 22px;
+}
+
+
+
+
+a {
+    color: var(--black) !important;
+    text-decoration: none;
+}
+
+.red {
+    filter: invert(22%) sepia(65%) saturate(7117%) hue-rotate(341deg) brightness(91%) contrast(97%);
+}
+
+.signoutText {
+    width: 46px;
+    height: 18px;
+    left: 0px;
+    top: 28px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--lightest_red);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+
+.sidebar_menu {
+    overflow: hidden;
+}
+
+.sidebar_menu {
+    margin-top: 62px;
+}
+
+.sidebar_menu {
+    margin-top: 62px;
+}
+
+.hambSignOut {
+    margin-top: 57vh;
+    margin-left: 13px;
+}
+
+.sidebar {
+    text-align: center;
+    width: 140px;
+    background: var(--white);
+    padding-top: 80px;
+
+}
+
+.teamSidebar {
+    margin-top: 50px;
+}
+
+
+.personSidebar {
+    margin-top: 36px;
+}
+
+
+
+a {
+    color: var(--black) !important;
+    text-decoration: none;
+}
+
+.red {
+    filter: invert(22%) sepia(65%) saturate(7117%) hue-rotate(341deg) brightness(91%) contrast(97%);
+}
+
+.signoutText {
+    width: 46px;
+    height: 18px;
+    left: 0px;
+    top: 28px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--lightest_red);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+
+.title {
+    cursor: pointer;
+}
+
+
+.sidebar_menu {
+    background: var(--white);
+    position: fixed;
+    height: calc(100% - 29px);
+    margin-top: 29px;
+    left: -100%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column
+}
+
+.sidebar {
+    margin-top: 80px;
+    padding: 0;
+    width: 130px;
+    background-color: var(--white);
+    position: fixed;
+    height: calc(100%);
+    overflow: auto;
+}
+
+.teamSidebar {
+    margin-top: 50px;
+}
+
+
+.personSidebar {
+    margin-top: 36px;
+}
+
+
+
+
+
+.person {
+    font-family: Avenir;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0;
+    letter-spacing: 0em;
+    text-decoration: none;
+
+}
+
+
+.red {
+    filter: invert(22%) sepia(65%) saturate(7117%) hue-rotate(341deg) brightness(91%) contrast(97%);
+}
+
+.logout {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 0px 32px;
+
+    position: absolute;
+    width: 46px;
+    height: 78px;
+    left: 41px;
+    bottom: 8%;
+}
+
+.signoutText {
+    width: 46px;
+    height: 18px;
+    left: 0px;
+    top: 28px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--lightest_red);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+
+.title {
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    top: 0;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background: var(--grey);
+}
+
+.nav-sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item {
+    padding: 10px;
+    list-style: none;
+}
+
+.nav-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.ham {
+    display: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: var(--black);
+    transition: 0.4s;
+}
+
+.sidebar_menu {
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+
+    .userInfo,
+    .sidebar {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width:768px) {
+
+
+
+    .sidebar_menu {
+        background: var(--white);
+        position: fixed;
+        height: calc(100% - 29px);
+        margin-top: 29px;
+        left: -100%;
+        width: 50vw;
+        display: flex;
+        flex-direction: column
+    }
+}

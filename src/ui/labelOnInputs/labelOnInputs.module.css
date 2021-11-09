@@ -1,0 +1,18 @@
+.spanAuth {
+  font-weight: 500;
+  font-size: 14px;
+  display: block;
+  color: var(--grey);
+  margin-bottom: 8px;
+  text-align: left;
+  margin-top: 24px;
+  font-family: Avenir;
+  font-style: normal;
+}
+
+@media (max-width: 480px) {
+
+  .spanAuth {
+    padding-left: 15px;
+  }
+}

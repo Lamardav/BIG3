@@ -1,0 +1,903 @@
+.App {
+    background: var(--lightest_grey1);
+    padding-left: 200px;
+    padding-top: 80px;
+    min-height: 100vh;
+
+}
+
+.navform {
+    display: flex;
+}
+
+.form {
+    overflow: hidden;
+    width: 100rem;
+}
+
+.inputAuth {
+    background: var(--lightest_grey1);
+    border-radius: 4px;
+    height: 40px;
+    width: 366px;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+.inputAdd:focus {
+    box-shadow: 0px 0px 5px;
+    outline: none;
+}
+
+.inputAuth:focus {
+    box-shadow: 0px 0px 5px;
+    outline: none;
+}
+
+.inputInside {
+    display: flex;
+    justify-content: center;
+    width: 336px;
+    height: 261px;
+    background: var(--light-grey);
+    opacity: 0.5;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.addPhoto {
+    width: 24%;
+    height: 28%;
+    position: absolute;
+    top: 32%;
+    left: 36%;
+}
+
+.preview {
+    position: absolute;
+    z-index: -1;
+    width: inherit;
+    height: inherit;
+    border-radius: 14px;
+
+}
+
+
+.smallInputs {
+    display: flex;
+    flex-wrap: wrap;
+    flex: start;
+    width: 366px;
+}
+
+
+.navform {
+    margin-left: 20px;
+}
+
+.detailUp_panel .navform {
+    margin-left: 22px;
+}
+
+.inputInsideImg {
+    width: 2px !important;
+    padding-left: 10px;
+    opacity: 0 !important;
+}
+
+.inputInsideImg:hover {
+    background: none;
+}
+
+
+.secondSearch {
+    background: var(--red) !important;
+    color: white !important;
+    font-family: "Open Sans";
+    font-size: 11px !important;
+    padding: 3px;
+    order: 99;
+    height: 27px !important;
+    margin-bottom: unset;
+    vertical-align: middle;
+    width: 20px !important;
+    text-align: center !important;
+    font-size: 15px !important;
+    padding-top: 8px !important;
+}
+
+.formAdd {
+    margin: 32px 80px 0 80px;
+    padding: 9px -1px 20px 0px;
+
+}
+
+.formAdd {
+    margin: 60px 80px 0 80px;
+    padding: 9px 0px 20px 00px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.FormTeam {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.rightAdd {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    padding-right: 90px;
+
+}
+
+.FormTeam {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+
+.leftAdd {
+    padding-top: 50px;
+    padding-left: 40px;
+    margin-left: auto;
+}
+
+.inputInside {
+    width: 336px;
+    height: 261px;
+    background: var(--light-grey);
+    opacity: 0.5;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.addPhoto {
+    width: 24%;
+    height: 28%;
+    position: absolute;
+    top: 32%;
+    left: 36%;
+}
+
+
+.smallInputs {
+    display: flex;
+    flex-wrap: wrap;
+    flex: start;
+    width: 366px;
+}
+
+.mrg {
+    margin-right: 24px;
+}
+
+.inputAdd {
+    background: var(--lightest_grey1);
+    border-radius: 4px;
+    height: 40px;
+    width: 171px;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+.buttonsAdd {
+    width: 366px;
+    margin-top: 24px;
+    display: flex;
+}
+
+.AddClose,
+.AddSave {
+    width: 171px;
+}
+
+.AddClose {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--light-grey);
+    border: 2px solid var(--light-grey);
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+.AddClose:hover {
+
+    background: var(--lightest_grey);
+}
+
+.AddClose:focus {
+
+    background: var(--light-grey);
+    color: var(--grey);
+}
+
+.AddSave:hover {
+    background: var(--light_red);
+}
+
+.AddSave:focus {
+    background: var(--dark_red);
+}
+
+.AddSave {
+    display: inline-block;
+    margin-left: auto;
+    background: var(--red);
+    border-radius: 4px;
+    color: white;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.success {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    display: block;
+    color: green;
+    text-align: left;
+    margin-top: 2px;
+}
+
+.errorClass {
+    border: 1px solid var(--lightest_red);
+}
+
+.inputPlayersFormSvg {
+    margin: auto;
+    position: absolute;
+    left: 39%;
+    top: 31%;
+
+}
+
+.navigationAdd {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: var(--red);
+
+}
+
+.browncolor {
+    color: var(--grey);
+}
+
+.FormTeam {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 1200px) and (max-width: 1470px) {
+    .FormTeam {
+        display: flex;
+        padding-bottom: 50px;
+    }
+
+    .rightAdd {
+        padding-left: 59px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+    .rightAdd .inputAuth {
+        width: 280px;
+    }
+
+
+    .inputInside {
+        width: 219px;
+        height: 182px;
+
+    }
+
+    .rightAdd {
+        padding-left: 29px;
+
+        padding-right: 0px;
+    }
+
+    .rightAdd .inputAuth {
+        width: 280px;
+    }
+
+
+    .buttonsAdd {
+        width: 366px;
+    }
+
+    .AddSave,
+    .AddClose {
+        width: 171px !important;
+    }
+
+    .inputAuth {
+        width: 366px !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .leftAdd {
+        padding-top: 29px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+    }
+
+    .wrapper_user {
+        justify-content: center;
+    }
+
+
+    .adminPanel {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0px;
+        height: 197px;
+
+
+    }
+
+    .searchInput {
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .addTeamButton {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .FormTeam {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .leftAdd {
+        padding-top: 29px;
+
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+    }
+
+    .inputInside {
+        width: 219px;
+        height: 182px;
+
+    }
+
+    .rightAdd {
+        padding-left: 73px;
+
+        padding-right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+    }
+
+    .rightAdd .inputAuth {
+        width: 280px;
+    }
+
+
+    .buttonsAdd {
+        width: 280px;
+    }
+
+    .FormTeam {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .formAdd {
+        margin: 60px 80px 0 22px;
+        padding: 9px 0px 20px 00px;
+        background-color: white;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+
+    .leftAdd {
+        padding-top: 29px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+    }
+
+    .buttonsAdd {
+        width: 366px;
+    }
+
+    .AddSave,
+    .AddClose {
+        width: 171px !important;
+    }
+
+    .inputAuth {
+        width: 366px !important;
+    }
+}
+
+
+
+
+@media (max-width: 767px) {
+
+    .inputInside {
+        width: 219px;
+        height: 165px;
+        background: var(--light-grey);
+        opacity: 0.5;
+        border-radius: 10px;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+
+
+    .inputInsideImg {
+        width: 10px;
+    }
+
+    .leftAdd {
+        padding-top: 29px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .inputInside {
+        width: 219px;
+        height: 165px;
+        background: var(--light-grey);
+        opacity: 0.5;
+        border-radius: 10px;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+
+
+    .formAdd {
+        margin: 0 !important;
+    }
+
+    .inputInsideImg {
+        width: 10px;
+    }
+
+    .userInfo,
+    .sidebar {
+        display: none;
+    }
+
+    .App {
+        padding-left: 0;
+    }
+
+    .wrapperUser {
+        padding-left: 0;
+    }
+
+    .adminPanel {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0px;
+        height: 197px;
+
+
+    }
+
+    .logo {
+        padding: 18px 23px 18px 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wrapper_user {
+        padding-right: 0;
+    }
+
+    .user {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .searchInput {
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 14px;
+    }
+
+
+    .addTeamButton {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .leftAdd {
+        padding-top: 29px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .inputInside {
+        width: 219px;
+        height: 165px;
+        background: var(--light-grey);
+        opacity: 0.5;
+        border-radius: 10px;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+
+    .formAdd {
+        margin: 0 !important;
+
+        padding: 9px -1px 20px 0px;
+    }
+
+    .inputInsideImg {
+        width: 10px;
+    }
+
+    .inputInside {
+        width: 219px;
+        height: 182px;
+
+    }
+
+    .rightAdd {
+        padding-left: 73px;
+
+        padding-right: 0px;
+    }
+
+    .rightAdd .inputAuth {
+        width: 280px;
+    }
+
+    .AddSave,
+    .AddClose {
+        width: 120px;
+    }
+
+    .buttonsAdd {
+        width: 280px;
+    }
+
+    .FormTeam {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftAdd {
+        padding-top: 29px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rightAdd {
+
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+
+    }
+
+
+    .formAdd {
+        margin: 32px 80px 0 80px;
+        padding: 9px -1px 20px 0px;
+
+    }
+
+    .FormTeam {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .inputInside {
+        width: 219px;
+        height: 165px;
+        background: var(--light-grey);
+        opacity: 0.5;
+        border-radius: 10px;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+
+    .formAdd {
+        margin: 0 !important;
+    }
+
+    .inputInsideImg {
+        width: 10px;
+    }
+
+    .leftAdd {
+
+        padding: 0;
+    }
+
+    .inputInside {
+        width: 219px;
+        height: 182px;
+
+    }
+
+    .rightAdd {
+        padding-left: 73px;
+
+        padding-right: 0px;
+    }
+
+    .rightAdd .inputAuth {
+        width: 280px;
+    }
+
+    .AddSave,
+    .AddClose {
+        width: 120px;
+    }
+
+    .buttonsAdd {
+        width: 280px;
+    }
+
+    .FormTeam {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftAdd {
+        padding-top: 29px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rightAdd {
+
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+
+    }
+
+    .formAdd {
+        margin: 32px 80px 0 80px;
+        padding: 9px -1px 20px 0px;
+
+    }
+
+    .leftAdd {
+        padding-top: 29px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .inputInside {
+        width: 219px;
+        height: 165px;
+        background: var(--light-grey);
+        opacity: 0.5;
+        border-radius: 10px;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+
+    .formAdd {
+        margin: 0 !important;
+    }
+
+    .inputInsideImg {
+        width: 10px;
+    }
+
+    .buttonsAdd {
+        width: 280px;
+    }
+
+    .detailUp_panel {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .detailUp {
+        border-radius: 10px;
+        margin: 38px 44px 0 48px;
+        background: white;
+        border: 0.5px solid var(--light-grey);
+    }
+
+    .detailUp_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .AddSave,
+    .AddClose {
+        width: 171px !important;
+    }
+
+    .buttonsAdd {
+        width: 366px !important;
+    }
+
+    .inputAuth {
+        width: 366px !important;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+
+
+    .inputAuth {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rightAdd {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .smallInputs {
+        justify-content: center;
+    }
+
+
+    .inputAdd {
+
+        height: 40px;
+        width: 139px;
+
+    }
+
+    .inputAuth {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rightAdd {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .smallInputs {
+        justify-content: center;
+    }
+
+
+    .footer {
+        padding-left: 0;
+    }
+
+    .smallInputs {
+        justify-content: center;
+    }
+
+    .inputAdd {
+
+        height: 40px;
+        width: 139px;
+
+    }
+
+
+    .inputAdd {
+
+        height: 40px;
+        width: 139px;
+
+    }
+
+    .inputAuth {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .AddSave,
+    .AddClose {
+        width: 145px !important;
+    }
+
+    .buttonsAdd {
+        width: 312px !important;
+    }
+
+    .inputAuth {
+        width: 312px !important;
+    }
+
+    .inputAdd {
+        width: 140px;
+    }
+
+    .smallInputs {
+        width: 312px;
+    }
+
+
+}
+
+
+@media (max-width: 1200px) {
+    .inputPlayersFormSvg {
+        width: 68px;
+        margin: auto;
+        position: absolute;
+        left: 34%;
+        top: 26%;
+    }
+
+}

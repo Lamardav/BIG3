@@ -1,0 +1,327 @@
+.title {
+    cursor: pointer;
+}
+
+.headerHamb {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    top: 0;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background: var(--grey);
+}
+
+.nav-sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item {
+    padding: 10px;
+    list-style: none;
+}
+
+.nav-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.ham {
+    display: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: var(--black);
+    transition: 0.4s;
+}
+
+.sidebarMenu {
+    overflow: hidden;
+}
+
+.sidebarMenu {
+    background: var(--white);
+    position: fixed;
+    height: calc(100% - 29px);
+    margin-top: 56px;
+    left: -100%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column
+}
+
+.swap {
+    left: 0%;
+}
+
+.black {
+    height: 1000vh;
+    margin-top: 87px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200vw;
+    background: var(--black);
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.hamburgerUserInfo {
+    display: flex;
+    flex: start;
+    width: 100%;
+    height: 80px;
+    border-bottom: 0.5px solid var(--light-grey);
+    padding-left: 7px;
+}
+
+.userImage {
+    height: 47px;
+    margin-right: 11px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.userHeader {
+    font-size: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hambTeam,
+.hambPlayer {
+    display: flex;
+}
+
+.hambImg {
+    height: 25px;
+    width: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 8px;
+    margin-left: 10px;
+}
+
+.hambTeam {
+    margin-top: 10px;
+}
+
+
+.ham {
+    margin-left: 10px;
+}
+
+
+.hambSignOut {
+    margin-top: 38vh;
+    margin-left: 16px;
+}
+
+.sidebar {
+    text-align: center;
+    width: 140px;
+    background: var(--white);
+    padding-top: 80px;
+
+}
+
+.teamSidebar {
+    margin-top: 50px;
+}
+
+
+.personSidebar {
+    margin-top: 36px;
+}
+
+
+a {
+    color: var(--black) !important;
+    text-decoration: none;
+}
+
+.red {
+    filter: invert(22%) sepia(65%) saturate(7117%) hue-rotate(341deg) brightness(91%) contrast(97%);
+}
+
+.logout {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 0px 32px;
+
+    position: absolute;
+    width: 46px;
+    height: 78px;
+    left: 47px;
+    bottom: 0%;
+}
+
+.signoutText {
+    width: 46px;
+    height: 18px;
+    left: 0px;
+    top: 28px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--lightest_red);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+
+.App {
+    background: var(--lightest_grey1);
+    padding-left: 140px;
+    padding-top: 80px;
+    min-height: 100vh;
+
+}
+
+.adminPanel {
+    display: flex;
+    margin-top: 32px;
+    width: 100%;
+}
+
+.addTeamButton {
+    margin-right: 180px;
+    margin-left: auto;
+}
+
+
+
+.plus {
+    filter: invert(97%) sepia(100%) saturate(11%) hue-rotate(207deg) brightness(103%) contrast(103%);
+    width: 11px;
+    margin-left: 10px;
+    padding-top: 2px;
+}
+
+.footer {
+    display: flex;
+    padding-bottom: 1em;
+    padding-left: 33px;
+}
+
+.contentPart {
+    display: flex;
+    flex: start;
+
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: calc(100vh - 238px);
+    ;
+}
+
+
+.user {
+    background: linear-gradient(121.57deg, var(--grey) 1.62%, var(--dark_black) 81.02%);
+    border-radius: 4px;
+    flex: start;
+
+    align-items: center;
+    margin-right: 25px;
+
+    margin-bottom: 45px;
+
+    width: 364px;
+    height: 380px;
+    flex-wrap: wrap;
+
+}
+
+.wrapper_user {
+    display: flex;
+    flex: start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 32px;
+    padding-right: 49px;
+}
+
+@media (min-width: 1200px) and (max-width: 1435px) {
+    .user {
+        width: 31%;
+        margin-right: 21px;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .headerHamb {
+        display: flex;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 15px;
+    }
+
+    .nav-sub {
+        position: absolute;
+        top: 10vh;
+        right: 0px;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0, 0.75);
+        border-radius: 0px 0px 0px 20px;
+        transition: transform 0.3s ease-in;
+        transform: translate(100%);
+    }
+
+    .nav-change {
+        transform: translate(0%);
+    }
+
+    .ham {
+        display: block;
+    }
+
+    .change .bar1 {
+        transform: rotate(45deg) translate(8px, 3px);
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+
+    .change .bar3 {
+        transform: rotate(-45deg) translate(8px, -3px);
+    }
+
+    .ham {
+        display: none;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: var(--black);
+        transition: 0.4s;
+    }
+}

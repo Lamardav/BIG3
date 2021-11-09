@@ -1,0 +1,472 @@
+.formAdd {
+    margin: 32px 80px 0 80px;
+    padding: 9px 0px 20px 00px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.App {
+    background: var(--lightest_grey1);
+    padding-left: 140px;
+    padding-top: 80px;
+    min-height: 100vh;
+
+}
+
+.FormTeam {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.rightAdd {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    padding-right: 90px;
+
+}
+
+.brownColor {
+    color: var(--grey);
+}
+
+.FormTeam {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.navigationAdd {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: var(--red);
+
+}
+
+.addPhoto {
+    width: 24%;
+    height: 28%;
+    position: absolute;
+    top: 32%;
+    left: 36%;
+}
+
+.inputInside {
+    width: 336px;
+    height: 261px;
+    background: var(--lightest_grey);
+    opacity: 0.5;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navform {
+    display: flex;
+    margin-left: 20px;
+}
+
+.preview {
+    position: absolute;
+    z-index: -1;
+    width: inherit;
+    height: inherit;
+    border-radius: 14px;
+
+}
+
+.navigationAdd {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: var(--red);
+
+}
+
+.navform {
+    margin-left: 20px;
+}
+
+.leftAdd {
+    padding-top: 50px;
+    padding-left: 40px;
+    margin-left: auto;
+}
+
+.brownColor {
+    color: var(--grey);
+}
+
+.leftAdd {
+    padding-top: 50px;
+    padding-left: 40px;
+    margin-left: auto;
+}
+
+.buttonsAdd {
+    width: 366px;
+    margin-top: 24px;
+    display: flex;
+}
+
+.AddClose,
+.AddSave {
+    width: 171px;
+}
+
+
+
+.AddSave {
+    display: inline-block;
+    margin-left: auto;
+    background: var(--red);
+    border-radius: 4px;
+    color: white;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+
+
+.AddClose {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--light-grey);
+    border: 2px solid var(--light-grey);
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+
+
+.inputAuth:focus {
+    box-shadow: 0px 0px 5px;
+    outline: none;
+}
+
+.inputAuth {
+    background: var(--lightest_grey1);
+    border-radius: 4px;
+    height: 40px;
+    width: 366px;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+.AddClose:hover {
+
+    background: var(--lightest_grey);
+}
+
+.errorClass {
+    border: 1px solid var(--lightest_red);
+}
+
+.AddClose:focus {
+
+    background: var(--lightest_grey);
+    color: var(--lightest_grey);
+}
+
+.AddSave:hover {
+    background: var(--lightest_red);
+}
+
+.AddSave:focus {
+    background: var(--dark_red);
+}
+
+.mrg {
+    margin-right: 24px;
+}
+
+.leftSideSignIn {
+    width: 366px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.inputAuth {
+    background: var(--lightest_grey1);
+    border-radius: 4px;
+    height: 40px;
+    width: 366px;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+
+.TitelSignIn {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    color: var(--dark_blue);
+    text-align: left;
+}
+
+.spanAuth {
+    font-weight: 500;
+    font-size: 14px;
+    display: block;
+    color: var(--grey);
+    margin-bottom: 8px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.spanLinkSignUp {
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    color: var(--grey);
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.LinkSignUp {
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: var(--red);
+}
+
+.error {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    display: block;
+    color: var(--lightest_red);
+    text-align: left;
+    margin-top: 2px;
+}
+
+input,
+select,
+textarea {
+
+    border-radius: 4px;
+    width: 366px;
+    height: 40px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border-width: 0px;
+    padding: 0;
+}
+
+.errorClass {
+    border: 1px solid var(--lightest_red);
+}
+
+
+.inputAuth:focus {
+    box-shadow: 0px 0px 5px;
+    outline: none;
+}
+
+.success {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    display: block;
+    color: green;
+    text-align: left;
+    margin-top: 2px;
+}
+
+
+.errorMessage {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    max-height: 30px;
+    background: var(--light_red);
+    border-radius: 4px;
+    padding: 4px 10px 10px 10px;
+    color: var(--white);
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1435px) {
+    .formAdd {
+        margin: 32px 80px 0 80px;
+        padding: 9px 0px 20px 00px;
+        background-color: var(--white);
+        border-radius: 10px 10px 0px 0px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+    .rightAdd {
+        padding-left: 29px;
+
+        padding-right: 0px;
+    }
+
+    .rightAdd .inputAuth {
+        width: 280px;
+    }
+
+    .AddClose,
+    .AddSave {
+        width: 120px;
+    }
+
+    .buttonsAdd {
+        width: 280px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .FormTeam {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightAdd {
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inputAuth {
+        width: 366px !important;
+    }
+
+
+
+    .inputAuth {
+        width: 305px;
+    }
+
+    .leftAdd {
+        padding-top: 29px;
+
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 767px) {
+    .formAdd {
+
+        padding: 9px -1px 20px 0px;
+
+    }
+
+    .App {
+        padding-left: 0;
+    }
+
+    .formAdd {
+        margin: 0 !important;
+    }
+
+    .formAdd {
+
+        padding: 9px -1px 20px 0px;
+
+    }
+
+    .rightAdd {
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inputAuth {
+        width: 366px !important;
+    }
+
+    .leftAdd {
+        padding-top: 29px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .FormTeam {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .formAdd {
+        margin: 0 !important;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .rightAdd {
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inputAuth {
+        width: 310px !important;
+    }
+
+    .buttonsAdd {
+        width: 310px !important;
+    }
+
+    .AddClose,
+    .AddSave {
+        width: 143px !important;
+    }
+}

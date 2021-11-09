@@ -1,0 +1,14 @@
+.passwordControl {
+    position: absolute;
+  top: 1px;
+  right: 9px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../../assets/icons/view.svg) 0 0 no-repeat;
+  filter: invert(68%) sepia(0%) saturate(51%) hue-rotate(135deg) brightness(92%) contrast(89%);
+}
+.passwordControl.view {
+    background: url(../../assets/icons/no-view.svg) 0 0 no-repeat;
+  filter: invert(68%) sepia(0%) saturate(51%) hue-rotate(135deg) brightness(92%) contrast(89%);
+}

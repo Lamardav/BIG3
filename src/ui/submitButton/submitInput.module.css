@@ -1,0 +1,19 @@
+.buttonAuth {
+  margin-top: 24px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 24px;
+  background: var(--red);
+}
+
+.buttonAuth:hover {
+  background: var(--light_red)
+}
+
+@media (max-width: 480px) {
+  .buttonAuth {
+    width: 310px;
+  }
+}
