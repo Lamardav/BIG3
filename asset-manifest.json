@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/test3/static/css/main.9954f073.chunk.css",
+    "main.js": "/test3/static/js/main.caa6777b.chunk.js",
+    "main.js.map": "/test3/static/js/main.caa6777b.chunk.js.map",
+    "runtime-main.js": "/test3/static/js/runtime-main.6dae40b9.js",
+    "runtime-main.js.map": "/test3/static/js/runtime-main.6dae40b9.js.map",
+    "static/css/2.bef7f282.chunk.css": "/test3/static/css/2.bef7f282.chunk.css",
+    "static/js/2.c6262346.chunk.js": "/test3/static/js/2.c6262346.chunk.js",
+    "static/js/2.c6262346.chunk.js.map": "/test3/static/js/2.c6262346.chunk.js.map",
+    "index.html": "/test3/index.html",
+    "static/css/2.bef7f282.chunk.css.map": "/test3/static/css/2.bef7f282.chunk.css.map",
+    "static/css/main.9954f073.chunk.css.map": "/test3/static/css/main.9954f073.chunk.css.map",
+    "static/js/2.c6262346.chunk.js.LICENSE.txt": "/test3/static/js/2.c6262346.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/test3/static/media/Avenir Medium.04360129.ttf",
+    "static/media/signUpForm.module.css": "/test3/static/media/view.bc05a0cb.svg",
+    "static/media/searchPanel.module.css": "/test3/static/media/search.6fd07768.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6dae40b9.js",
+    "static/css/2.bef7f282.chunk.css",
+    "static/js/2.c6262346.chunk.js",
+    "static/css/main.9954f073.chunk.css",
+    "static/js/main.caa6777b.chunk.js"
+  ]
+}
