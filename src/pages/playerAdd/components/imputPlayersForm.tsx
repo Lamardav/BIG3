@@ -117,7 +117,7 @@ export const InputPlayersForm = () => {
       setPosition(technologyList);
     });
 
-    dispatch(fetchGetTeams([])).then((value: any) => {
+    dispatch(fetchGetTeams({})).then((value: any) => {
       const opt = value.payload.data.map((d: IMapGetTeams) => ({
         value: d.id,
         label: d.name,

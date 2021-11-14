@@ -22,7 +22,7 @@ export const PlayersDetailUp = ({ teamInfoPlayers }: { teamInfoPlayers: FormInpu
 
   const [teams, setTeams] = useState<any>([]);
   useEffect(() => {
-    dispatch(fetchGetTeams([])).then((value) => {
+    dispatch(fetchGetTeams({})).then((value) => {
       setTeams(value.payload.data);
     });
   }, [dispatch]);

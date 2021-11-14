@@ -1,11 +1,11 @@
 import React, { useEffect, useState, useMemo, useCallback } from "react";
 import { useAppSelector, useAppDispatch } from "../../../../core/redux/store";
 import { SearchPanel } from "../../../../ui/searchByName/searchPanel";
-import { Connection } from "../playerFilterByTeam/PlaterFilterByTeam";
 import { Pagination } from "../../../../ui/pagination/pagination";
 import { PagesSize } from "../../../../ui/pageSize/pagesSize";
 import { PlayerCard } from "../playerCard/playersCard";
 import classes from "./playerContent.module.css";
+import { Connection } from "../playerFilterByTeam/filterByName";
 import { PlayerContentEmptySvg } from "../../../../assets/icons/playerEmptySvg";
 import { fetchGetPlayer } from "../../../../modules/player/getPlayers/getPlayersThunk";
 import { fetchGetTeams } from "../../../../modules/team/getTeams/getTeamsThunk";
@@ -62,7 +62,7 @@ export const PlayerContent: React.FC = () => {
       setTotalteams(value.payload.count);
       setPlayers(value.payload.data);
     });
-    dispatch(fetchGetTeams([])).then((res) => setTeams(res.payload.data));
+    dispatch(fetchGetTeams({})).then((res) => setTeams(res.payload.data));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filteredCategoryPlayers, filteredPlayers, queryPage, queryPageSize]);
 

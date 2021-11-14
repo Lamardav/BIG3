@@ -2,7 +2,7 @@ import { Component } from "react";
 import Select, { components } from "react-select";
 import { setFilteredCategortPlayers } from "../../../../modules/filters/filterSlice";
 import { connect } from "react-redux";
-import classes from "./PlaterFilterByTeam.module.css";
+import classes from "./filterByName.module.css";
 import { IMapGetTeams } from "../../../../api/dto/IGetTeams";
 
 class CustomSelect extends Component<any> {
