@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { IFormImputsSignUp } from "../../../api/dto/ISignUp";
 import { useAppSelector, useAppDispatch } from "../../../core/redux/store";
-import { fetchSignUp } from "../../../modules/auth/signup/signUpThunk";
+import { fetchSignUp } from "../../../modules/auth/authThunk";
 import classes from "./signUpForm.module.css";
 import { Link } from "react-router-dom";
 import { LabelOnInputs } from "../../../ui/labelOnInputs/labelOnInputs";

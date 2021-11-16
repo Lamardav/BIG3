@@ -270,7 +270,7 @@
         font-size: 32px;
         line-height: 18px;
         text-align: center;
-        color: #FF768E;
+        color: var(--lightest_red);
         text-align: center;
         display: block;
     }

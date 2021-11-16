@@ -18,7 +18,7 @@ export const TeamDetailUp = (teamInfo: { teamInfo: teamInfo }) => {
       <div className={classes.detailUp}>
         <div className={classes.detailUpPanel}>
           <div className={classes.navform}>
-            <Link to={`${privatePath.team.path}/?page=1&limit=8`}>
+            <Link to={`${privatePath.team.path}/?page=1&limit=6`}>
               <p className={classes.navigationAdd}>Teams</p>
             </Link>
             <p className={classes.brownColor}>&nbsp;/&nbsp;</p>

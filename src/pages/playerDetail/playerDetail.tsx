@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { PlayersDetailUp } from "./components/playersDetailUp/playersDetailUp";
-import { fetchGetPlayerById } from "../../modules/player/getPlayerById/getPlayerByIdThunk";
+import { fetchGetPlayerById } from "../../modules/player/playerThunk";
 import { useAppDispatch } from "../../core/redux/store";
 import classes from "./playerDetail.module.css";
 
@@ -15,10 +15,8 @@ export const PlayerDetail = () => {
     });
   }, [dispatch, id]);
   return (
-    <div>
-      <div className={classes.AppDetail}>
-        <PlayersDetailUp teamInfoPlayers={teamInfoPlayers} />
-      </div>
+    <div className={classes.AppDetail}>
+      <PlayersDetailUp teamInfoPlayers={teamInfoPlayers} />
     </div>
   );
 };

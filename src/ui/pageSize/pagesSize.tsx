@@ -10,9 +10,9 @@ export interface IHandleChangeSize {
   handleChange(value: number, label: number): void;
 }
 const options = [
-  { value: 8, label: 8 },
-  { value: 16, label: 16 },
-  { value: 24, label: 24 },
+  { value: 6, label: 6 },
+  { value: 12, label: 12 },
+  { value: 18, label: 18 },
 ];
 
 export const PagesSize: React.FC<IChangePageSize> = ({ onChange }) => {

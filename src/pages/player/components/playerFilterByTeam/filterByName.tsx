@@ -1,54 +1,60 @@
-import { Component } from "react";
+import { useMemo, useState } from "react";
 import Select, { components } from "react-select";
-import { setFilteredCategortPlayers } from "../../../../modules/filters/filterSlice";
-import { connect } from "react-redux";
 import classes from "./filterByName.module.css";
+import { useQueryParams } from "../../../../api/hook/useQueryParams";
 import { IMapGetTeams } from "../../../../api/dto/IGetTeams";
-
-class CustomSelect extends Component<any> {
-  state: any = {
-    values: [],
+export const CustomSelect = (props: any) => {
+  const query = useQueryParams();
+  const queryTeamName = useMemo(() => query.get("teamids"), [query]) || "";
+  const [values, setValues] = useState<any>([]);
+  const handleChange = (values: {}) => {
+    setValues(values);
+    props.onChangeTeam(values);
   };
 
-  handleChange = (values: {}) => {
-    this.setState({ values });
+  const queryTeam = queryTeamName.split(",").map((el) => {
+    if (props.teams.length && queryTeamName !== "" && el !== "") {
+      return {
+        value: +el,
+        label: props.teams.filter((team: IMapGetTeams) => {
+          return +team.id === +el;
+        })[0].name,
+      };
+    } else {
+      return null;
+    }
+  });
 
-    this.props.dispatch(setFilteredCategortPlayers(values));
+  const selectedVals = values.map((x: { value: number; label: string }) => x.value);
+  const hiddenOptions = selectedVals.length > 3 ? selectedVals.slice(0, 3) : [];
+  const opt = props.teams.map((d: IMapGetTeams) => ({
+    value: d.id,
+    label: d.name,
+  }));
+  const options = opt.filter(
+    (x: { value: number; label: string }) => !hiddenOptions.includes(x.value),
+  );
+  const customStyles = {
+    control: (base: {}) => ({
+      ...base,
+      height: 40,
+      minHeight: 40,
+    }),
   };
-  render() {
-    const { values } = this.state;
-    const selectedVals = values.map((x: { value: number; label: string }) => x.value);
-    const hiddenOptions = selectedVals.length > 3 ? selectedVals.slice(0, 3) : [];
-    const opt = this.props.teams.map((d: IMapGetTeams) => ({
-      value: d.id,
-      label: d.name,
-    }));
-    const options = opt.filter(
-      (x: { value: number; label: string }) => !hiddenOptions.includes(x.value),
-    );
-    const customStyles = {
-      control: (base: {}) => ({
-        ...base,
-        height: 40,
-        minHeight: 40,
-      }),
-    };
-    return (
-      <div className={classes.searchFilter}>
-        <Select
-          isMulti
-          options={options}
-          onChange={this.handleChange}
-          value={values}
-          components={{ MultiValue }}
-          styles={customStyles}
-        />
-      </div>
-    );
-  }
-}
-export const Connection = connect()(CustomSelect);
-connect()(CustomSelect);
+
+  return (
+    <div className={classes.searchFilter}>
+      <Select
+        isMulti
+        options={options}
+        onChange={handleChange}
+        value={queryTeam}
+        components={{ MultiValue }}
+        styles={customStyles}
+      />
+    </div>
+  );
+};
 
 const MoreSelectedBadge = ({ items }: { items: any }) => {
   const style = {

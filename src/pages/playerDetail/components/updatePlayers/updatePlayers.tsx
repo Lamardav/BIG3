@@ -7,9 +7,7 @@ export const UpdatePlayers = () => {
   const { id }: { id: string } = useParams();
   return (
     <Link className={classes.updatePlayersIcon} to={`/player/update/${+id}`}>
-      <div>
-        <UpdatePlayerSvg />
-      </div>
+      <UpdatePlayerSvg />
     </Link>
   );
 };

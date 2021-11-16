@@ -28,11 +28,11 @@
     font-size: 16px;
     line-height: 24px;
     max-height: 30px;
-    background: #FF5761;
+    background: var(--light_red);
     border-radius: 4px;
     padding: 4px 10px 10px 10px;
 
-    color: white;
+    color: var(--white);
 }
 
 .errorMessageAdd {
@@ -48,7 +48,7 @@
     background: var(--light_red);
     border-radius: 4px;
     padding: 4px 10px 10px 10px;
-    color: white;
+    color: var(--white);
 }
 
 .authLayer {

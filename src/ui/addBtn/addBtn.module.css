@@ -14,7 +14,7 @@
 
     border-width: 0px;
 
-    color: white;
+    color: var(--white);
     background: var(--red);
     border-radius: 4px;
 }

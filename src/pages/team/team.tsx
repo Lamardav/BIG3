@@ -11,8 +11,8 @@ export const Team = () => {
     };
   }, [dispatch]);
   return (
-    <div>
+    <>
       <TeamContent />
-    </div>
+    </>
   );
 };

@@ -5,7 +5,7 @@ import { DeletePlayers } from "../deletePlayers/deletePlayers";
 import { UpdatePlayers } from "../updatePlayers/updatePlayers";
 import { Link } from "react-router-dom";
 import classes from "./playersDetailUp.module.css";
-import { fetchGetTeams } from "../../../../modules/team/getTeams/getTeamsThunk";
+import { fetchGetTeams } from "../../../../modules/team/teamThunk";
 import { useAppDispatch, useAppSelector } from "../../../../core/redux/store";
 import { privatePath } from "../../../routes/path";
 import { IMapGetTeams } from "../../../../api/dto/IGetTeams";
@@ -38,7 +38,7 @@ export const PlayersDetailUp = ({ teamInfoPlayers }: { teamInfoPlayers: FormInpu
       <div className={classes.detailUp}>
         <div className={classes.detailUpPanel}>
           <div className={classes.navform}>
-            <Link to={`${privatePath.player.path}/?page=1&limit=8`}>
+            <Link to={`${privatePath.player.path}/?page=1&limit=6`}>
               <p className={classes.navigationAdd}>Players</p>
             </Link>
             <p className={classes.brownColor}>&nbsp;/&nbsp;</p>

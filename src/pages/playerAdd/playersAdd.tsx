@@ -11,8 +11,8 @@ export const PlayersAdd = () => {
     };
   }, [dispatch]);
   return (
-    <div>
+    <>
       <InputPlayersForm />
-    </div>
+    </>
   );
 };

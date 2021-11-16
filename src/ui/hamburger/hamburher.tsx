@@ -59,7 +59,7 @@ export const Hamburher = () => {
             <img className={classes.userImage} src={Profile} alt="profile" />
             <p className={classes.userHeader}>{nameUser}</p>
           </div>
-          <Link to={`${privatePath.team.path}/?page=1&limit=8`}>
+          <Link to={`${privatePath.team.path}/?page=1&limit=6`}>
             <div className={classes.hambTeam}>
               <img
                 className={active < 0 ? `${classes.red} ${classes.hambImg}` : `${classes.hambImg}`}
@@ -69,7 +69,7 @@ export const Hamburher = () => {
               <p className={active < 0 ? `${classes.red}` : ``}>Teams</p>
             </div>
           </Link>
-          <Link to={`${privatePath.player.path}/?page=1&limit=8`}>
+          <Link to={`${privatePath.player.path}/?page=1&limit=6`}>
             <div
               className={
                 active > 0 ? `${classes.hambPlayer} ${classes.red}` : `${classes.hambPlayer} `

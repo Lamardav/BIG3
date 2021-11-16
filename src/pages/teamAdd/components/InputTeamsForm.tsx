@@ -2,10 +2,10 @@ import React, { useMemo, useState, useEffect, useCallback } from "react";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { schemaTeam } from "../../../api/vadidation/yupAddOrUpdateTeam";
 import { useForm } from "react-hook-form";
-import { updateTeam } from "../../../modules/team/updateTeam/updateTeamThunk";
+import { updateTeam } from "../../../modules/team/teamThunk";
 import { Link, useParams } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../../../core/redux/store";
-import { fetchNewTeam } from "../../../modules/team/addTeam/addTeamThunk";
+import { fetchNewTeam } from "../../../modules/team/teamThunk";
 import classes from "./inputTeamsForm.module.css";
 import { ErrorValidation } from "../../../ui/error/errorValidation";
 import { LabelOnInputs } from "../../../ui/labelOnInputs/labelOnInputs";
@@ -78,7 +78,7 @@ export const InputTeamsForm = () => {
     <div className={classes.App}>
       <div className={classes.formAdd}>
         <div className={classes.navform}>
-          <Link to={`${privatePath.team.path}/?page=1&limit=8`}>
+          <Link to={`${privatePath.team.path}/?page=1&limit=6`}>
             <p className={classes.navigationAdd}>Teams</p>
           </Link>
           <p className={classes.brownColor}>&nbsp;/&nbsp;</p>
@@ -138,7 +138,10 @@ export const InputTeamsForm = () => {
             <UIToastContainer />
             {loading ? "Loading" : null}
             <div className={classes.buttonsAdd}>
-              <Link to={`${privatePath.team.path}?page=1&limit=8`}>
+              <Link
+                to={
+                  id ? `${privatePath.team.path}/${id}` : `${privatePath.team.path}?page=1&limit=6`
+                }>
                 <input className={classes.AddClose} placeholder="Cancel" />
               </Link>
               <input className={classes.AddSave} type="submit" placeholder="Save" />

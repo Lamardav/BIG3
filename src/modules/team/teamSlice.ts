@@ -1,9 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { fetchGetTeams } from "./getTeams/getTeamsThunk";
-import { fetchNewTeam } from "./addTeam/addTeamThunk";
-import { deleteTeam } from "./deleteTeam/deleteTeamthunk";
-import { fetchGetTeamById } from "./getTeamById/getTeamByIdThunk";
-import { updateTeam } from "./updateTeam/updateTeamThunk";
+import { fetchGetTeams } from "./teamThunk";
+import { fetchNewTeam } from "./teamThunk";
+import { deleteTeam } from "./teamThunk";
+import { fetchGetTeamById } from "./teamThunk";
+import { updateTeam } from "./teamThunk";
 import { ITeams } from "../../api/dto/IGetTeams";
 
 const initialState: ITeams = {

@@ -32,7 +32,7 @@ export const TeamHeader = () => {
     <div className={classes.header}>
       <Hamburher />
       <div className={classes.logo}>
-        <Link to={`${privatePath.team.path}/?page=1&limit=8`}>
+        <Link to={`${privatePath.team.path}/?page=1&limit=6`}>
           <img src={Logo} alt="logo" />
         </Link>
       </div>

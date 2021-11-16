@@ -27,7 +27,7 @@ export const SideBar = () => {
   }, [location]);
   return (
     <div className={classes.sidebar}>
-      <Link to={`${privatePath.team.path}/?page=1&limit=8`}>
+      <Link to={`${privatePath.team.path}/?page=1&limit=6`}>
         <div className={classes.teamSidebar}>
           <img
             className={
@@ -44,7 +44,7 @@ export const SideBar = () => {
         </div>
       </Link>
 
-      <Link to={`${privatePath.player.path}/?page=1&limit=8`}>
+      <Link to={`${privatePath.player.path}/?page=1&limit=6`}>
         <div
           className={
             active > 0 ? `${classes.personSidebar} ${classes.red}` : `${classes.personSidebar}`

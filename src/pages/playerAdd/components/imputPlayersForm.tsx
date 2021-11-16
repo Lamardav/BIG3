@@ -7,11 +7,11 @@ import Select from "react-select";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { Link } from "react-router-dom";
-import { fetchNewPlayer } from "../../../modules/player/addPlayer/addPlayerThunk";
+import { fetchNewPlayer } from "../../../modules/player/playerThunk";
 import { useAppDispatch, useAppSelector } from "../../../core/redux/store";
-import { updatePlayer } from "../../../modules/player/updatePlayer/updatePlayerThunk";
-import { fetchGetTeams } from "../../../modules/team/getTeams/getTeamsThunk";
-import { fetchGetPos } from "../../../modules/player/getPositions/getPositionThunk";
+import { updatePlayer } from "../../../modules/player/playerThunk";
+import { fetchGetTeams } from "../../../modules/team/teamThunk";
+import { fetchGetPos } from "../../../modules/player/playerThunk";
 import classes from "./imputPlayersForm.module.css";
 import { LabelOnInputs } from "../../../ui/labelOnInputs/labelOnInputs";
 import { ErrorValidation } from "../../../ui/error/errorValidation";
@@ -130,7 +130,7 @@ export const InputPlayersForm = () => {
     <div className={classes.App}>
       <div className={classes.formAdd}>
         <div className={classes.navform}>
-          <Link to={`${privatePath.player.path}/?page=1&limit=8`}>
+          <Link to={`${privatePath.player.path}/?page=1&limit=6`}>
             <p className={classes.navigationAdd}>Players</p>
           </Link>
           <p className={classes.browncolor}>&nbsp;/&nbsp;</p>
@@ -227,7 +227,12 @@ export const InputPlayersForm = () => {
                 />
               </div>
               <div id="buttonsAdd" className={classes.buttonsAdd}>
-                <Link to={`${privatePath.player.path}/?page=1&limit=8`}>
+                <Link
+                  to={
+                    id
+                      ? `${privatePath.player.path}/${id}`
+                      : `${privatePath.player.path}/?page=1&limit=6`
+                  }>
                   <input id="closeAdd" className={classes.AddClose} placeholder="Cancel" />
                 </Link>
                 <input id="saveAdd" className={classes.AddSave} type="submit" placeholder="Save" />

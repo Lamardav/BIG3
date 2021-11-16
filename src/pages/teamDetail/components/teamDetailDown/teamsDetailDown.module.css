@@ -65,7 +65,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
-    color: #707070;
+    color: var(--grey);
     width: 20px;
     text-align: center;
     display: flex;

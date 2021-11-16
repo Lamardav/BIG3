@@ -1,7 +1,7 @@
 import { useHistory } from "react-router";
 import { useParams } from "react-router";
 import { useAppDispatch } from "../../core/redux/store";
-import { deleteTeam } from "../../modules/team/deleteTeam/deleteTeamthunk";
+import { deleteTeam } from "../../modules/team/teamThunk";
 import { privatePath } from "../../pages/routes/path";
 import { UIToastContainer } from "../../ui/reactToastify/toastContainer";
 import { ErrToast } from "../../ui/reactToastify/errToast";
@@ -20,7 +20,7 @@ export const DeleteTeamSvg = () => {
             if (res.type === "deleteteam/DeleteTeam/rejected" || !res.payload) {
               ErrToast("Delete players of this team");
             } else {
-              history.push(`${privatePath.team.path}/?page=1&limit=8`);
+              history.push(`${privatePath.team.path}/?page=1&limit=6`);
             }
           });
         }}

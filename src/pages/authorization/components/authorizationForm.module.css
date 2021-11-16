@@ -54,7 +54,7 @@
     font-weight: normal;
     font-size: 40px;
     line-height: 49px;
-    color: #344472;
+    color: var(--blue);
     text-align: left;
 }
 
@@ -62,7 +62,7 @@
     font-weight: 500;
     font-size: 14px;
     display: block;
-    color: #707070;
+    color: var(--grey);
     margin-bottom: 8px;
     text-align: left;
     margin-top: 24px;
@@ -92,7 +92,7 @@
     font-weight: 500;
     font-size: 12px;
     display: block;
-    color: #FF768E;
+    color: var(--lightest_red);
     text-align: left;
     margin-top: 2px;
 }

@@ -34,7 +34,7 @@
 
 .header {
     display: flex;
-    background: white;
+    background: var(--white);
     box-shadow: 0px 1px 10px rgba(209, 209, 209, 0.5);
     z-index: 999;
     margin-bottom: 2px;
@@ -55,14 +55,14 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background: black;
+    background: var(--black);
     opacity: .7;
 }
 
 .formAdd {
     margin: 32px 80px 0 80px;
     padding: 9px 0px 20px 00px;
-    background-color: white;
+    background-color: var(--white);
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -120,7 +120,7 @@
     margin-left: auto;
     background: var(--red);
     border-radius: 4px;
-    color: white;
+    color: var(--white);
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -165,7 +165,7 @@
 }
 
 .user {
-    background: linear-gradient(121.57deg, #707070 1.62%, #393939 81.02%);
+    background: linear-gradient(121.57deg, var(--grey) 1.62%, var(--dark_grey) 81.02%);
     border-radius: 4px;
     flex: start;
     margin-right: none;
@@ -189,7 +189,7 @@
 
 .secondSearch {
     background: var(--red) !important;
-    color: white !important;
+    color: var(--white) !important;
     font-family: "Open Sans";
     font-size: 11px !important;
     padding: 3px;
@@ -256,7 +256,7 @@
     font-size: 18px;
     line-height: 25px;
     text-align: center;
-    color: white;
+    color: var(--white);
 
     flex: none;
     order: 0;

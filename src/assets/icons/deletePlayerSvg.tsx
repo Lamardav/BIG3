@@ -1,6 +1,6 @@
 import { useHistory } from "react-router";
 import { useParams } from "react-router";
-import { deletePlayer } from "../../modules/player/deletePlayer/deletePlayerThunk";
+import { deletePlayer } from "../../modules/player/playerThunk";
 import { useAppDispatch } from "../../core/redux/store";
 import { privatePath } from "../../pages/routes/path";
 import { UIToastContainer } from "../../ui/reactToastify/toastContainer";
@@ -20,7 +20,7 @@ export const DeletePlayerSvg = () => {
             if (res.type === "deleteplayer/DeletePlayer/rejected" || !res.payload) {
               ErrToast("Error!");
             } else {
-              history.push(`${privatePath.player.path}/?page=1&limit=8`);
+              history.push(`${privatePath.player.path}/?page=1&limit=6`);
             }
           });
         }}

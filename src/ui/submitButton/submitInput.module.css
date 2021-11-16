@@ -2,7 +2,7 @@
   margin-top: 24px;
   align-items: center;
   text-align: center;
-  color: white;
+  color: var(--white);
   margin-top: 30px;
   margin-bottom: 24px;
   background: var(--red);

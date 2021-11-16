@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { fetchLogin } from "./authorization/authorizationThunk";
-import { fetchSignUp } from "./signup/signUpThunk";
+import { fetchLogin } from "./authThunk";
+import { fetchSignUp } from "./authThunk";
 
 export interface IAuthorization {
   loading: boolean;

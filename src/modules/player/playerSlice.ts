@@ -1,9 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { fetchGetPlayer } from "./getPlayers/getPlayersThunk";
-import { fetchNewPlayer } from "./addPlayer/addPlayerThunk";
-import { deletePlayer } from "./deletePlayer/deletePlayerThunk";
-import { fetchGetPlayerById } from "./getPlayerById/getPlayerByIdThunk";
-import { updatePlayer } from "./updatePlayer/updatePlayerThunk";
+import { fetchGetPlayer } from "./playerThunk";
+import { fetchNewPlayer } from "./playerThunk";
+import { deletePlayer } from "./playerThunk";
+import { fetchGetPlayerById } from "./playerThunk";
+import { updatePlayer } from "./playerThunk";
+import { fetchGetPos } from "./playerThunk";
 
 export interface IPlayer {
   loading: boolean;
@@ -39,7 +40,6 @@ const playersSlice = createSlice({
     });
     builder.addCase(fetchGetPlayer.fulfilled, (state, action) => {
       state.loading = false;
-
       state.players = action.payload;
     });
     builder.addCase(fetchGetPlayer.rejected, (state) => {
@@ -74,6 +74,17 @@ const playersSlice = createSlice({
     });
     builder.addCase(updatePlayer.rejected, (state, action) => {
       state.loading = false;
+    });
+    builder.addCase(fetchGetPos.pending, (state) => {
+      state.loading = true;
+    });
+    builder.addCase(fetchGetPos.fulfilled, (state, action) => {
+      state.loading = false;
+      state.positions = action.payload;
+    });
+    builder.addCase(fetchGetPos.rejected, (state, action) => {
+      state.loading = false;
+      state.positions = [];
     });
   },
 });

@@ -71,7 +71,7 @@
   font-weight: normal;
   font-size: 40px;
   line-height: 49px;
-  color: #344472;
+  color: var(--dark_blue);
   text-align: left;
 }
 

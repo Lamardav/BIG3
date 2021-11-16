@@ -4,7 +4,7 @@ import { schemaSignIn } from "../../../api/vadidation/yupSignInForn";
 import { IFormImputs } from "../../../api/dto/IAuthorization";
 import { useForm } from "react-hook-form";
 import { useAppDispatch } from "../../../core/redux/store";
-import { fetchLogin } from "../../../modules/auth/authorization/authorizationThunk";
+import { fetchLogin } from "../../../modules/auth/authThunk";
 import { Link } from "react-router-dom";
 import classes from "./authorizationForm.module.css";
 import { LabelOnInputs } from "../../../ui/labelOnInputs/labelOnInputs";
@@ -30,7 +30,7 @@ export const AuthorizationForm = () => {
     (data: IFormImputs) => {
       dispatch(fetchLogin(data)).then((res) => {
         if (res.type === "authorization/fetchLogin/fulfilled") {
-          window.location.assign(`${privatePath.team.path}/?page=1&limit=8`);
+          window.location.assign(`${privatePath.team.path}/?page=1&limit=6`);
         } else {
           ErrToast("User with the specified username / password was not found");
         }

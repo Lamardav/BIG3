@@ -172,7 +172,7 @@
         margin-left: auto;
         background: var(--red);
         border-radius: 4px;
-        color: white;
+        color: var(--white);
         font-family: Avenir;
         font-style: normal;
         font-weight: 500;
@@ -441,7 +441,7 @@
 
 .infoDetail {
     margin: auto auto auto 150px;
-    color: white;
+    color: var(--white);
     padding-right: 40px;
 
 
@@ -559,7 +559,7 @@
 
     .infoDetail {
         margin-left: auto;
-        color: white;
+        color: var(--white);
         margin-right: auto;
     }
 

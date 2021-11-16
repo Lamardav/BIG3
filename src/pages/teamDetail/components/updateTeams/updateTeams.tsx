@@ -7,9 +7,7 @@ export function UpdateTeams() {
   const { id }: { id: string } = useParams();
   return (
     <Link className={classes.updateTeamSvg} to={`/team/update/${+id}`}>
-      <div>
-        <UpdateTeamSvg />
-      </div>
+      <UpdateTeamSvg />
     </Link>
   );
 }

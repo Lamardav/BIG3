@@ -2,10 +2,10 @@ import React, { useEffect, useState, useMemo, useCallback } from "react";
 import { TeamsCard } from "../teamCard/teamsCard";
 import { PagesSize } from "../../../../ui/pageSize/pagesSize";
 import { Pagination } from "../../../../ui/pagination/pagination";
-import { SearchPanel } from "../../../../ui/searchByName/searchPanel";
+import { SearchInput } from "../../../../ui/searchInput/searchInput";
 import { useAppSelector, useAppDispatch } from "../../../../core/redux/store";
 import classes from "./teamContent.module.css";
-import { fetchGetTeams } from "../../../../modules/team/getTeams/getTeamsThunk";
+import { fetchGetTeams } from "../../../../modules/team/teamThunk";
 import { AddBtn } from "../../../../ui/addBtn/addBtn";
 import { TeamContentEmptySvg } from "../../../../assets/icons/teamContentEmptySvg";
 import { privatePath } from "../../../routes/path";
@@ -18,12 +18,15 @@ export const TeamContent: React.FC = () => {
   const dispatch = useAppDispatch();
   const queryPage = useMemo(() => query.get("page"), [query]);
   const queryPageSize = useMemo(() => query.get("limit"), [query]);
+  const [pageSize, setPageSize] = useState<number>(Number(queryPageSize || 6));
+  const queryName = useMemo(() => query.get("name"), [query]) || "";
+  const [name, setName] = useState<string>("");
   if (!queryPage || !queryPageSize) {
-    history.push(`${privatePath.team.path}/?page=1&limit=8`);
+    history.push(`${privatePath.team.path}/?name=${name}&page=1&limit=${pageSize}`);
   }
   const { loading } = useAppSelector((state) => state.team);
   const [users, setUsers] = useState<any>([]);
-  const [pageSize, setPageSize] = useState<number>(Number(queryPageSize));
+
   const [pageNumber, setPageNumber] = useState<number>(1);
   const [totalTeams, setTotalteams] = useState<number>(0);
   const { filteredTeams } = useAppSelector((state) => state.filter);
@@ -31,9 +34,16 @@ export const TeamContent: React.FC = () => {
     (number: number) => {
       setPageSize(number);
       setPageNumber(1);
-      history.push(`${privatePath.team.path}/?page=1&limit=${number}`);
+      history.push(`${privatePath.team.path}/?name=${name}&page=1&limit=${number}`);
     },
-    [history],
+    [history, name],
+  );
+  const onChangeName = useCallback(
+    (string: string) => {
+      setName(string);
+      history.push(`${privatePath.team.path}/?name=${string}&?page=1&limit=${pageSize}`);
+    },
+    [history, pageSize],
   );
   const usersPerPage = useMemo(() => Number(queryPageSize), [queryPageSize]);
   const pagesVisited = useMemo(() => Number(queryPage) * usersPerPage, [queryPage, usersPerPage]);
@@ -41,26 +51,28 @@ export const TeamContent: React.FC = () => {
   const changePage = useCallback(
     (selected: any) => {
       setPageNumber(selected.selected);
-      history.push(`${privatePath.team.path}/?page=${selected.selected + 1}&limit=${pageSize}`);
+      history.push(
+        `${privatePath.team.path}/?name=${name}&page=${selected.selected + 1}&limit=${pageSize}`,
+      );
     },
-    [history, pageSize],
+    [history, name, pageSize],
   );
   useEffect(() => {
     const fetchParams = {
       page: Number(queryPage),
       pageLimit: Number(queryPageSize),
-      teamNames: filteredTeams,
+      teamNames: queryName,
     };
     dispatch(fetchGetTeams(fetchParams)).then((res) => {
       setUsers(res.payload.data);
       setTotalteams(res.payload.count);
     });
-  }, [dispatch, pageNumber, pageSize, filteredTeams, history, queryPageSize, queryPage]);
+  }, [dispatch, pageNumber, pageSize, filteredTeams, history, queryPageSize, queryPage, queryName]);
 
   return (
     <div className={classes.App}>
       <div className={classes.adminPanel}>
-        <SearchPanel type="team" />
+        <SearchInput type="team" onChangeName={onChangeName} />
         <div className={classes.addTeamButton}>{<AddBtn link={privatePath.teamAdd.path} />}</div>
       </div>
       <div className={classes.contentPart}>
