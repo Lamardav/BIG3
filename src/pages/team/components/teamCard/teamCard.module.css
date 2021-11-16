@@ -39,9 +39,7 @@
     margin: 12px 0px;
 }
 
-.cardUp {
-    height: 300px;
-}
+
 
 .cardDown {
     height: 108px;
@@ -50,15 +48,6 @@
     padding-top: 7px;
 }
 
-.cardUpPlayers img {
-    width: 335px;
-    height: 274px;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-
-
-}
 
 .user {
     background: linear-gradient(121.57deg, var(--light_black) 1.62%, var(--dark_black) 81.02%);
@@ -131,20 +120,12 @@
         margin-right: 60px;
     }
 
-    .userInfo img {
-        height: 46px;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
+
 
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
-    .adminPanel input,
-    .css-1j9sz76-control {
-        width: 270px;
-    }
 
     .user {
         width: 336px;
@@ -189,23 +170,10 @@
         display: none;
     }
 
-    .wrapperUser {
-        padding-left: 0;
-    }
-
-    .wrapperUser {
-        padding-right: 0;
-    }
-
-    .user {
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-
 
 
     .user {
+
         align-items: flex-start;
         margin-right: 0;
         margin-left: 0;
@@ -217,7 +185,8 @@
     }
 
     .wrapperUser {
-        padding-left: 9px;
+
+        padding-right: 0;
         padding-left: 9px;
     }
 

@@ -11,12 +11,7 @@
     display: flex;
 }
 
-.rightSideSignIn img {
-    margin: auto auto auto auto;
-    display: block;
-    align-items: center;
 
-}
 
 .errorMessage {
     position: absolute;

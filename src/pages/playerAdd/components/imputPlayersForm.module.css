@@ -6,10 +6,6 @@
 
 }
 
-.navform {
-    display: flex;
-}
-
 .form {
     overflow: hidden;
     width: 100rem;
@@ -23,7 +19,6 @@
     border-radius: 4px;
     padding-left: 10px;
     padding-top: 5px;
-
 }
 
 .inputAdd:focus {
@@ -36,27 +31,8 @@
     outline: none;
 }
 
-.inputInside {
-    display: flex;
-    justify-content: center;
-    width: 336px;
-    height: 261px;
-    background: var(--light-grey);
-    opacity: 0.5;
-    border-radius: 10px;
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
 
-}
 
-.addPhoto {
-    width: 24%;
-    height: 28%;
-    position: absolute;
-    top: 32%;
-    left: 36%;
-}
 
 .preview {
     position: absolute;
@@ -68,16 +44,11 @@
 }
 
 
-.smallInputs {
-    display: flex;
-    flex-wrap: wrap;
-    flex: start;
-    width: 366px;
-}
 
 
 .navform {
     margin-left: 20px;
+    display: flex;
 }
 
 .detailUp_panel .navform {
@@ -111,22 +82,13 @@
     padding-top: 8px !important;
 }
 
-.formAdd {
-    margin: 32px 80px 0 80px;
-    padding: 9px -1px 20px 0px;
 
-}
 
 .formAdd {
     margin: 60px 80px 0 80px;
     padding: 9px 0px 20px 00px;
     background-color: var(--white);
     border-radius: 10px 10px 0px 0px;
-}
-
-.FormTeam {
-    display: flex;
-    padding-bottom: 50px;
 }
 
 .rightAdd {
@@ -138,10 +100,6 @@
 
 }
 
-.FormTeam {
-    display: flex;
-    padding-bottom: 50px;
-}
 
 
 .leftAdd {
@@ -151,6 +109,7 @@
 }
 
 .inputInside {
+    justify-content: center;
     width: 336px;
     height: 261px;
     background: var(--light-grey);
@@ -307,9 +266,6 @@
 
 
 
-    .rightAdd .inputAuth {
-        width: 280px;
-    }
 
 
     .inputInside {
@@ -320,13 +276,10 @@
 
     .rightAdd {
         padding-left: 29px;
-
         padding-right: 0px;
     }
 
-    .rightAdd .inputAuth {
-        width: 280px;
-    }
+
 
 
     .buttonsAdd {
@@ -347,16 +300,6 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
 
-    .leftAdd {
-        padding-top: 29px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0;
-    }
-
-    .wrapper_user {
-        justify-content: center;
-    }
 
 
     .adminPanel {
@@ -387,13 +330,6 @@
 
 
 
-    .leftAdd {
-        padding-top: 29px;
-
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0;
-    }
 
     .inputInside {
         width: 219px;
@@ -462,16 +398,6 @@
 
 @media (max-width: 767px) {
 
-    .inputInside {
-        width: 219px;
-        height: 165px;
-        background: var(--light-grey);
-        opacity: 0.5;
-        border-radius: 10px;
-        position: relative;
-        display: inline-block;
-        cursor: pointer;
-    }
 
 
 
@@ -486,22 +412,8 @@
         padding: 0;
     }
 
-    .inputInside {
-        width: 219px;
-        height: 165px;
-        background: var(--light-grey);
-        opacity: 0.5;
-        border-radius: 10px;
-        position: relative;
-        display: inline-block;
-        cursor: pointer;
-    }
 
 
-
-    .formAdd {
-        margin: 0 !important;
-    }
 
     .inputInsideImg {
         width: 10px;
@@ -566,33 +478,15 @@
         padding: 0;
     }
 
-    .inputInside {
-        width: 219px;
-        height: 165px;
-        background: var(--light-grey);
-        opacity: 0.5;
-        border-radius: 10px;
-        position: relative;
-        display: inline-block;
-        cursor: pointer;
-    }
 
 
-    .formAdd {
-        margin: 0 !important;
 
-        padding: 9px -1px 20px 0px;
-    }
+
 
     .inputInsideImg {
         width: 10px;
     }
 
-    .inputInside {
-        width: 219px;
-        height: 182px;
-
-    }
 
     .rightAdd {
         padding-left: 73px;
@@ -638,7 +532,7 @@
 
 
     .formAdd {
-        margin: 32px 80px 0 80px;
+        margin: 0 !important;
         padding: 9px -1px 20px 0px;
 
     }
@@ -675,11 +569,7 @@
         padding: 0;
     }
 
-    .inputInside {
-        width: 219px;
-        height: 182px;
 
-    }
 
     .rightAdd {
         padding-left: 73px;
@@ -709,6 +599,7 @@
         padding-top: 29px;
         margin-left: auto;
         margin-right: auto;
+        padding: 0;
     }
 
     .rightAdd {
@@ -726,13 +617,6 @@
         margin: 32px 80px 0 80px;
         padding: 9px -1px 20px 0px;
 
-    }
-
-    .leftAdd {
-        padding-top: 29px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0;
     }
 
     .inputInside {
@@ -796,17 +680,6 @@
 @media (max-width: 480px) {
 
 
-    .inputAuth {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .rightAdd {
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-    }
-
 
 
     .smallInputs {
@@ -821,10 +694,6 @@
 
     }
 
-    .inputAuth {
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     .rightAdd {
         padding: 0;
@@ -832,37 +701,20 @@
         flex-direction: column;
     }
 
-    .smallInputs {
-        justify-content: center;
-    }
 
 
     .footer {
         padding-left: 0;
     }
 
-    .smallInputs {
-        justify-content: center;
-    }
-
-    .inputAdd {
-
-        height: 40px;
-        width: 139px;
-
-    }
 
 
-    .inputAdd {
 
-        height: 40px;
-        width: 139px;
-
-    }
 
     .inputAuth {
         margin-left: auto;
         margin-right: auto;
+        width: 312px !important;
     }
 
 
@@ -875,15 +727,15 @@
         width: 312px !important;
     }
 
-    .inputAuth {
-        width: 312px !important;
-    }
+
 
     .inputAdd {
+        height: 40px;
         width: 140px;
     }
 
     .smallInputs {
+        justify-content: center;
         width: 312px;
     }
 

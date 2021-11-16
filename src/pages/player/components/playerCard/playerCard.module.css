@@ -80,10 +80,6 @@
 
 }
 
-.navform {
-    display: flex;
-}
-
 .navigationAdd {
     font-family: Avenir;
     font-style: normal;
@@ -95,6 +91,7 @@
 }
 
 .navform {
+    display: flex;
     margin-left: 20px;
 }
 
@@ -180,11 +177,6 @@
 
 }
 
-.cardUpPlayers {
-    height: 274px;
-    margin-top: auto;
-    display: block;
-}
 
 
 .secondSearch {
@@ -225,9 +217,7 @@
 }
 
 
-.cardUp {
-    height: 300px;
-}
+
 
 .cardDown {
     height: 108px;
@@ -236,20 +226,12 @@
     padding-top: 7px;
 }
 
-.cardDown {
-    height: 108px;
-    background: var(--dark_grey);
-    border-radius: 0px 0px 4px 4px;
-    padding-top: 7px;
-}
+
 
 .teamName {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.teamName {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -262,13 +244,11 @@
     order: 0;
     flex-grow: 1;
     margin: 12px 0px;
-}
-
-.teamName {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 
 .cardUp {
     height: 300px;
@@ -326,16 +306,6 @@
 
 
 
-    .adminPanel {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 0px;
-        height: 197px;
-
-
-    }
-
     .searchInput {
         padding-left: 0;
         margin-right: auto;
@@ -375,6 +345,8 @@
 
 
     .adminPanel {
+
+
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -422,31 +394,12 @@
 
     }
 
-    .logo {
-        padding: 18px 23px 18px 0px;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     .wrapperUser {
         padding-right: 0;
     }
 
-    .searchInput {
-        padding-left: 0;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 14px;
-    }
 
-
-
-    .searchFilter .css-b62m3t-container {
-        width: 366px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 14px;
-    }
 
     .addTeamButton {
         margin-right: auto;
@@ -459,9 +412,6 @@
 
     }
 
-    .wrapperUser {
-        padding-right: 0;
-    }
 
     .searchInput {
         padding-left: 0;
@@ -533,12 +483,6 @@
         padding-right: 0;
     }
 
-    .searchFilter .css-b62m3t-container {
-        width: 366px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 14px;
-    }
 
     .addTeamButton {
         margin-right: auto;

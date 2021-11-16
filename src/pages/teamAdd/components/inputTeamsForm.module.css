@@ -13,10 +13,6 @@
 
 }
 
-.FormTeam {
-    display: flex;
-    padding-bottom: 50px;
-}
 
 .rightAdd {
     padding-left: 150px;
@@ -34,16 +30,6 @@
 .FormTeam {
     display: flex;
     padding-bottom: 50px;
-}
-
-.navigationAdd {
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 27px;
-    color: var(--red);
-
 }
 
 .addPhoto {
@@ -94,12 +80,6 @@
 
 .navform {
     margin-left: 20px;
-}
-
-.leftAdd {
-    padding-top: 50px;
-    padding-left: 40px;
-    margin-left: auto;
 }
 
 .brownColor {
@@ -160,16 +140,6 @@
     outline: none;
 }
 
-.inputAuth {
-    background: var(--lightest_grey1);
-    border-radius: 4px;
-    height: 40px;
-    width: 366px;
-    border-radius: 4px;
-    padding-left: 10px;
-    padding-top: 5px;
-
-}
 
 .AddClose:hover {
 
@@ -211,6 +181,8 @@
 }
 
 .inputAuth {
+
+
     background: var(--lightest_grey1);
     border-radius: 4px;
     height: 40px;

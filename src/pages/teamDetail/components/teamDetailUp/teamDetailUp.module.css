@@ -553,18 +553,13 @@
     }
 
 
-    .infoDetail {
-        text-align: center;
-    }
+
 
     .infoDetail {
         margin-left: auto;
+        text-align: center;
         color: var(--white);
         margin-right: auto;
-    }
-
-
-    .infoDetail {
         padding-right: 0;
     }
 
@@ -573,15 +568,7 @@
         white-space: nowrap;
     }
 
-    .infoDetailItemsYearOfFoundationH3 {
-        line-height: 10px;
-        white-space: nowrap;
-    }
 
-    .infoDetailItemsYearOfFoundationP {
-        line-height: 12px;
-        white-space: nowrap;
-    }
 
     .infoDetailItemsDivisionnH3 {
         line-height: 10px;

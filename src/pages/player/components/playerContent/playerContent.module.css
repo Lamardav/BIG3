@@ -3,10 +3,6 @@
 }
 
 
-.addTeamButton {
-    margin-right: 180px;
-    margin-left: auto;
-}
 
 .emptyWhiteBox {
     width: 520px;
@@ -168,10 +164,6 @@
         margin-bottom: 20px;
     }
 
-    .addTeamButton {
-        margin-right: auto !important;
-
-    }
 
     .adminPanel {
         display: flex;
@@ -187,7 +179,7 @@
 
     .addTeamButton {
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto !important;
     }
 
     .playerContentEmptySvg {
@@ -246,11 +238,7 @@
         height: 158px;
     }
 
-    .user {
-        margin-bottom: 29px;
-        width: 219px;
-        height: 259px;
-    }
+
 
     .wrapperUser {
         padding-right: 0;
@@ -264,6 +252,9 @@
     .user {
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 29px;
+        width: 219px;
+        height: 259px;
 
     }
 
@@ -279,17 +270,6 @@
         position: inherit;
     }
 
-    .searchFilter .css-b62m3t-container {
-        width: 366px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 14px;
-    }
-
-    .addTeamButton {
-        margin-right: auto;
-        margin-left: auto;
-    }
 
     .adminPanel {
         display: flex;
@@ -327,7 +307,8 @@
     }
 
     .addTeamButton {
-        margin-right: auto
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .emptyWhiteBox {
@@ -382,14 +363,6 @@
         display: flex;
     }
 
-    .hamburgeruserInfo img {
-        height: 37px;
-        margin-right: 11px;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 9px;
-    }
-
     .hambSignOut {
         margin-top: 39vh;
         margin-left: 13px;
@@ -409,9 +382,6 @@
     }
 
 
-    .searchFilter .css-b62m3t-container {
-        width: 300px;
-    }
 
     .seachText {
         width: 300px;
